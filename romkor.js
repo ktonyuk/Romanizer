@@ -4039,6 +4039,42 @@ syl = syl.replace(/ilr/g, "ill");
 syl = syl.replace(/ulr/g, "ull");
 syl = syl.replace(/elr/g, "ell");
 
+
+// mos/못 followed by consonant
+var find = syl.match(/mos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/mos/g, "mot"));
+	}
+}
+
+// mos/못 followed by consonant
+var find = syl.match(/gos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/gos/g, "got"));
+	}
+}
+
+// mos/못 followed by consonant
+var find = syl.match(/geos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/geos/g, "geot"));
+	}
+}
+	
+// mos/못 followed by consonant
+var find = syl.match(/bich[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/bich/g, "bit"));
+	}
+}
 //individual words
 syl = syl.replace(/eobsda/g, "eopta");
 syl = syl.replace(/janha/g, "jana");
