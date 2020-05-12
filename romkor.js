@@ -4004,7 +4004,14 @@ syl = syl.replace(/naph/g, "nap");
 syl = syl.replace(/nahg/g, "nahk");
 syl = syl.replace(/nahr/g, "nar");
 
-//
+//l followed by ng
+syl = syl.replace(/ola/g, "ora");
+syl = syl.replace(/ole/g, "ore");
+syl = syl.replace(/oli/g, "ori");
+syl = syl.replace(/olu/g, "oru");
+syl = syl.replace(/olo/g, "oro");
+syl = syl.replace(/oly/g, "ory");
+syl = syl.replace(/olw/g, "orw");
 
 document.romanization.rom.value=syl;
 }
