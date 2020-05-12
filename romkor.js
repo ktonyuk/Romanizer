@@ -4024,6 +4024,447 @@ syl = syl.replace(/naph/g, "nap");
 syl = syl.replace(/nahg/g, "nahk");
 syl = syl.replace(/nahr/g, "nar");
 
+//ne
+syl = syl.replace(/nekh/g, "nek");
+syl = syl.replace(/nekn/g, "neng");
+syl = syl.replace(/nekr/g, "negn");
+syl = syl.replace(/nekg/g, "nekk");
+syl = syl.replace(/nekm/g, "negm");
+syl = syl.replace(/nekb/g, "negb");
+
+syl = syl.replace(/nend/g, "nend");
+syl = syl.replace(/nenr/g, "nell");
+syl = syl.replace(/neng/g, "nekk");
+
+syl = syl.replace(/nedh/g, "nedt");
+syl = syl.replace(/nedg/g, "netg");
+syl = syl.replace(/nedd/g, "nett");
+syl = syl.replace(/nedm/g, "netm");
+
+syl = syl.replace(/neln/g, "nell");
+syl = syl.replace(/nelr/g, "nell");
+
+syl = syl.replace(/nemr/g, "nemm");
+syl = syl.replace(/neml/g, "nemm");
+
+syl = syl.replace(/neph/g, "nep");
+syl = syl.replace(/nepg/g, "nebg");
+syl = syl.replace(/nepn/g, "nemn");
+syl = syl.replace(/nepr/g, "nemn");
+syl = syl.replace(/nepm/g, "nemm");
+
+syl = syl.replace(/nesh/g, "net");
+syl = syl.replace(/nesg/g, "netg");
+syl = syl.replace(/nesn/g, "netn");
+syl = syl.replace(/nesd/g, "nett");
+syl = syl.replace(/nesm/g, "nenm");
+syl = syl.replace(/nesb/g, "netb");
+syl = syl.replace(/nesshi/g, "netshi");
+
+syl = syl.replace(/nessn/g, "nent");
+syl = syl.replace(/nessd/g, "nett");
+syl = syl.replace(/nessj/g, "netch");
+
+syl = syl.replace(/nengr/g, "nengn");
+
+syl = syl.replace(/nejh/g, "netch");
+syl = syl.replace(/nejg/g, "netg");
+syl = syl.replace(/nejn/g, "netn");
+syl = syl.replace(/nejd/g, "nett");
+syl = syl.replace(/nejm/g, "netm");
+
+syl = syl.replace(/nechh/g, "netch");
+syl = syl.replace(/nechg/g, "netg");
+syl = syl.replace(/nechn/g, "netn");
+syl = syl.replace(/nechd/g, "nett");
+syl = syl.replace(/nechm/g, "netm");
+
+syl = syl.replace(/neth/g, "net");
+syl = syl.replace(/netd/g, "nett");
+
+syl = syl.replace(/neph/g, "nep");
+
+syl = syl.replace(/nehg/g, "nehk");
+syl = syl.replace(/nehr/g, "ner");
+	
+//no
+syl = syl.replace(/nokh/g, "nok");
+syl = syl.replace(/nokn/g, "nong");
+syl = syl.replace(/nokr/g, "nogn");
+syl = syl.replace(/nokg/g, "nokk");
+syl = syl.replace(/nokm/g, "nogm");
+syl = syl.replace(/nokb/g, "nogb");
+
+syl = syl.replace(/nond/g, "nond");
+syl = syl.replace(/nonr/g, "noll");
+syl = syl.replace(/nong/g, "nokk");
+
+syl = syl.replace(/nodh/g, "nodt");
+syl = syl.replace(/nodg/g, "notg");
+syl = syl.replace(/nodd/g, "nott");
+syl = syl.replace(/nodm/g, "notm");
+
+syl = syl.replace(/noln/g, "noll");
+syl = syl.replace(/nolr/g, "noll");
+
+syl = syl.replace(/nomr/g, "nomm");
+syl = syl.replace(/noml/g, "nomm");
+
+syl = syl.replace(/noph/g, "nop");
+syl = syl.replace(/nopg/g, "nobg");
+syl = syl.replace(/nopn/g, "nomn");
+syl = syl.replace(/nopr/g, "nomn");
+syl = syl.replace(/nopm/g, "nomm");
+
+syl = syl.replace(/nosh/g, "not");
+syl = syl.replace(/nosg/g, "notg");
+syl = syl.replace(/nosn/g, "notn");
+syl = syl.replace(/nosd/g, "nott");
+syl = syl.replace(/nosm/g, "nonm");
+syl = syl.replace(/nosb/g, "notb");
+syl = syl.replace(/nosshi/g, "notshi");
+
+syl = syl.replace(/nossn/g, "nont");
+syl = syl.replace(/nossd/g, "nott");
+syl = syl.replace(/nossj/g, "notch");
+
+syl = syl.replace(/nongr/g, "nongn");
+
+syl = syl.replace(/nojh/g, "notch");
+syl = syl.replace(/nojg/g, "notg");
+syl = syl.replace(/nojn/g, "notn");
+syl = syl.replace(/nojd/g, "nott");
+syl = syl.replace(/nojm/g, "notm");
+
+syl = syl.replace(/nochh/g, "notch");
+syl = syl.replace(/nochg/g, "notg");
+syl = syl.replace(/nochn/g, "notn");
+syl = syl.replace(/nochd/g, "nott");
+syl = syl.replace(/nochm/g, "notm");
+
+syl = syl.replace(/noth/g, "not");
+syl = syl.replace(/notd/g, "nott");
+
+syl = syl.replace(/noph/g, "nop");
+
+syl = syl.replace(/nohg/g, "nohk");
+syl = syl.replace(/nohr/g, "nor");
+
+//nu
+syl = syl.replace(/nukh/g, "nuk");
+syl = syl.replace(/nukn/g, "nung");
+syl = syl.replace(/nukr/g, "nugn");
+syl = syl.replace(/nukg/g, "nukk");
+syl = syl.replace(/nukm/g, "nugm");
+syl = syl.replace(/nukb/g, "nugb");
+
+syl = syl.replace(/nund/g, "nund");
+syl = syl.replace(/nunr/g, "null");
+syl = syl.replace(/nung/g, "nukk");
+
+syl = syl.replace(/nudh/g, "nudt");
+syl = syl.replace(/nudg/g, "nutg");
+syl = syl.replace(/nudd/g, "nutt");
+syl = syl.replace(/nudm/g, "nutm");
+
+syl = syl.replace(/nuln/g, "null");
+syl = syl.replace(/nulr/g, "null");
+
+syl = syl.replace(/numr/g, "numm");
+syl = syl.replace(/numl/g, "numm");
+
+syl = syl.replace(/nuph/g, "nup");
+syl = syl.replace(/nupg/g, "nubg");
+syl = syl.replace(/nupn/g, "numn");
+syl = syl.replace(/nupr/g, "numn");
+syl = syl.replace(/nupm/g, "numm");
+
+syl = syl.replace(/nush/g, "nut");
+syl = syl.replace(/nusg/g, "nutg");
+syl = syl.replace(/nusn/g, "nutn");
+syl = syl.replace(/nusd/g, "nutt");
+syl = syl.replace(/nusm/g, "nunm");
+syl = syl.replace(/nusb/g, "nutb");
+syl = syl.replace(/nusshi/g, "nutshi");
+
+syl = syl.replace(/nussn/g, "nunt");
+syl = syl.replace(/nussd/g, "nutt");
+syl = syl.replace(/nussj/g, "nutch");
+
+syl = syl.replace(/nungr/g, "nungn");
+
+syl = syl.replace(/nujh/g, "nutch");
+syl = syl.replace(/nujg/g, "nutg");
+syl = syl.replace(/nujn/g, "nutn");
+syl = syl.replace(/nujd/g, "nutt");
+syl = syl.replace(/nujm/g, "nutm");
+
+syl = syl.replace(/nuchh/g, "nutch");
+syl = syl.replace(/nuchg/g, "nutg");
+syl = syl.replace(/nuchn/g, "nutn");
+syl = syl.replace(/nuchd/g, "nutt");
+syl = syl.replace(/nuchm/g, "nutm");
+
+syl = syl.replace(/nuth/g, "nut");
+syl = syl.replace(/nutd/g, "nutt");
+
+syl = syl.replace(/nuph/g, "nup");
+
+syl = syl.replace(/nuhg/g, "nuhk");
+syl = syl.replace(/nuhr/g, "nur");
+
+//da
+syl = syl.replace(/dakh/g, "dak");
+syl = syl.replace(/dakn/g, "dang");
+syl = syl.replace(/dakr/g, "dagn");
+syl = syl.replace(/dakg/g, "dakk");
+syl = syl.replace(/dakm/g, "dagm");
+syl = syl.replace(/dakb/g, "dagb");
+
+syl = syl.replace(/dand/g, "dand");
+syl = syl.replace(/danr/g, "dall");
+syl = syl.replace(/dang/g, "dakk");
+
+syl = syl.replace(/dadh/g, "dadt");
+syl = syl.replace(/dadg/g, "datg");
+syl = syl.replace(/dadd/g, "datt");
+syl = syl.replace(/dadm/g, "datm");
+
+syl = syl.replace(/daln/g, "dall");
+syl = syl.replace(/dalr/g, "dall");
+
+syl = syl.replace(/damr/g, "damm");
+syl = syl.replace(/daml/g, "damm");
+
+syl = syl.replace(/daph/g, "dap");
+syl = syl.replace(/dapg/g, "dabg");
+syl = syl.replace(/dapn/g, "damn");
+syl = syl.replace(/dapr/g, "damn");
+syl = syl.replace(/dapm/g, "damm");
+
+syl = syl.replace(/dash/g, "dat");
+syl = syl.replace(/dasg/g, "datg");
+syl = syl.replace(/dasn/g, "datn");
+syl = syl.replace(/dasd/g, "datt");
+syl = syl.replace(/dasm/g, "danm");
+syl = syl.replace(/dasb/g, "datb");
+syl = syl.replace(/dasshi/g, "datshi");
+
+syl = syl.replace(/dassn/g, "dant");
+syl = syl.replace(/dassd/g, "datt");
+syl = syl.replace(/dassj/g, "datch");
+
+syl = syl.replace(/dangr/g, "dangn");
+
+syl = syl.replace(/dajh/g, "datch");
+syl = syl.replace(/dajg/g, "datg");
+syl = syl.replace(/dajn/g, "datn");
+syl = syl.replace(/dajd/g, "datt");
+syl = syl.replace(/dajm/g, "datm");
+
+syl = syl.replace(/dachh/g, "datch");
+syl = syl.replace(/dachg/g, "datg");
+syl = syl.replace(/dachn/g, "datn");
+syl = syl.replace(/dachd/g, "datt");
+syl = syl.replace(/dachm/g, "datm");
+
+syl = syl.replace(/dath/g, "dat");
+syl = syl.replace(/datd/g, "datt");
+
+syl = syl.replace(/daph/g, "dap");
+
+syl = syl.replace(/dahg/g, "dahk");
+syl = syl.replace(/dahr/g, "dar");
+
+//de
+syl = syl.replace(/dekh/g, "dek");
+syl = syl.replace(/dekn/g, "deng");
+syl = syl.replace(/dekr/g, "degn");
+syl = syl.replace(/dekg/g, "dekk");
+syl = syl.replace(/dekm/g, "degm");
+syl = syl.replace(/dekb/g, "degb");
+
+syl = syl.replace(/dend/g, "dend");
+syl = syl.replace(/denr/g, "dell");
+syl = syl.replace(/deng/g, "dekk");
+
+syl = syl.replace(/dedh/g, "dedt");
+syl = syl.replace(/dedg/g, "detg");
+syl = syl.replace(/dedd/g, "dett");
+syl = syl.replace(/dedm/g, "detm");
+
+syl = syl.replace(/deln/g, "dell");
+syl = syl.replace(/delr/g, "dell");
+
+syl = syl.replace(/demr/g, "demm");
+syl = syl.replace(/deml/g, "demm");
+
+syl = syl.replace(/deph/g, "dep");
+syl = syl.replace(/depg/g, "debg");
+syl = syl.replace(/depn/g, "demn");
+syl = syl.replace(/depr/g, "demn");
+syl = syl.replace(/depm/g, "demm");
+
+syl = syl.replace(/desh/g, "det");
+syl = syl.replace(/desg/g, "detg");
+syl = syl.replace(/desn/g, "detn");
+syl = syl.replace(/desd/g, "dett");
+syl = syl.replace(/desm/g, "denm");
+syl = syl.replace(/desb/g, "detb");
+syl = syl.replace(/desshi/g, "detshi");
+
+syl = syl.replace(/dessn/g, "dent");
+syl = syl.replace(/dessd/g, "dett");
+syl = syl.replace(/dessj/g, "detch");
+
+syl = syl.replace(/dengr/g, "dengn");
+
+syl = syl.replace(/dejh/g, "detch");
+syl = syl.replace(/dejg/g, "detg");
+syl = syl.replace(/dejn/g, "detn");
+syl = syl.replace(/dejd/g, "dett");
+syl = syl.replace(/dejm/g, "detm");
+
+syl = syl.replace(/dechh/g, "detch");
+syl = syl.replace(/dechg/g, "detg");
+syl = syl.replace(/dechn/g, "detn");
+syl = syl.replace(/dechd/g, "dett");
+syl = syl.replace(/dechm/g, "detm");
+
+syl = syl.replace(/deth/g, "det");
+syl = syl.replace(/detd/g, "dett");
+
+syl = syl.replace(/deph/g, "dep");
+
+syl = syl.replace(/dehg/g, "dehk");
+syl = syl.replace(/dehr/g, "der");
+	
+//do
+syl = syl.replace(/dokh/g, "dok");
+syl = syl.replace(/dokn/g, "dong");
+syl = syl.replace(/dokr/g, "dogn");
+syl = syl.replace(/dokg/g, "dokk");
+syl = syl.replace(/dokm/g, "dogm");
+syl = syl.replace(/dokb/g, "dogb");
+
+syl = syl.replace(/dond/g, "dond");
+syl = syl.replace(/donr/g, "doll");
+syl = syl.replace(/dong/g, "dokk");
+
+syl = syl.replace(/dodh/g, "dodt");
+syl = syl.replace(/dodg/g, "dotg");
+syl = syl.replace(/dodd/g, "dott");
+syl = syl.replace(/dodm/g, "dotm");
+
+syl = syl.replace(/doln/g, "doll");
+syl = syl.replace(/dolr/g, "doll");
+
+syl = syl.replace(/domr/g, "domm");
+syl = syl.replace(/doml/g, "domm");
+
+syl = syl.replace(/doph/g, "dop");
+syl = syl.replace(/dopg/g, "dobg");
+syl = syl.replace(/dopn/g, "domn");
+syl = syl.replace(/dopr/g, "domn");
+syl = syl.replace(/dopm/g, "domm");
+
+syl = syl.replace(/dosh/g, "dot");
+syl = syl.replace(/dosg/g, "dotg");
+syl = syl.replace(/dosn/g, "dotn");
+syl = syl.replace(/dosd/g, "dott");
+syl = syl.replace(/dosm/g, "donm");
+syl = syl.replace(/dosb/g, "dotb");
+syl = syl.replace(/dosshi/g, "dotshi");
+
+syl = syl.replace(/dossn/g, "dont");
+syl = syl.replace(/dossd/g, "dott");
+syl = syl.replace(/dossj/g, "dotch");
+
+syl = syl.replace(/dongr/g, "dongn");
+
+syl = syl.replace(/dojh/g, "dotch");
+syl = syl.replace(/dojg/g, "dotg");
+syl = syl.replace(/dojn/g, "dotn");
+syl = syl.replace(/dojd/g, "dott");
+syl = syl.replace(/dojm/g, "dotm");
+
+syl = syl.replace(/dochh/g, "dotch");
+syl = syl.replace(/dochg/g, "dotg");
+syl = syl.replace(/dochn/g, "dotn");
+syl = syl.replace(/dochd/g, "dott");
+syl = syl.replace(/dochm/g, "dotm");
+
+syl = syl.replace(/doth/g, "dot");
+syl = syl.replace(/dotd/g, "dott");
+
+syl = syl.replace(/doph/g, "dop");
+
+syl = syl.replace(/dohg/g, "dohk");
+syl = syl.replace(/dohr/g, "dor");
+	
+//du
+syl = syl.replace(/dukh/g, "duk");
+syl = syl.replace(/dukn/g, "dung");
+syl = syl.replace(/dukr/g, "dugn");
+syl = syl.replace(/dukg/g, "dukk");
+syl = syl.replace(/dukm/g, "dugm");
+syl = syl.replace(/dukb/g, "dugb");
+
+syl = syl.replace(/dund/g, "dund");
+syl = syl.replace(/dunr/g, "dull");
+syl = syl.replace(/dung/g, "dukk");
+
+syl = syl.replace(/dudh/g, "dudt");
+syl = syl.replace(/dudg/g, "dutg");
+syl = syl.replace(/dudd/g, "dutt");
+syl = syl.replace(/dudm/g, "dutm");
+
+syl = syl.replace(/duln/g, "dull");
+syl = syl.replace(/dulr/g, "dull");
+
+syl = syl.replace(/dumr/g, "dumm");
+syl = syl.replace(/duml/g, "dumm");
+
+syl = syl.replace(/duph/g, "dup");
+syl = syl.replace(/dupg/g, "dubg");
+syl = syl.replace(/dupn/g, "dumn");
+syl = syl.replace(/dupr/g, "dumn");
+syl = syl.replace(/dupm/g, "dumm");
+
+syl = syl.replace(/dush/g, "dut");
+syl = syl.replace(/dusg/g, "dutg");
+syl = syl.replace(/dusn/g, "dutn");
+syl = syl.replace(/dusd/g, "dutt");
+syl = syl.replace(/dusm/g, "dunm");
+syl = syl.replace(/dusb/g, "dutb");
+syl = syl.replace(/dusshi/g, "dutshi");
+
+syl = syl.replace(/dussn/g, "dunt");
+syl = syl.replace(/dussd/g, "dutt");
+syl = syl.replace(/dussj/g, "dutch");
+
+syl = syl.replace(/dungr/g, "dungn");
+
+syl = syl.replace(/dujh/g, "dutch");
+syl = syl.replace(/dujg/g, "dutg");
+syl = syl.replace(/dujn/g, "dutn");
+syl = syl.replace(/dujd/g, "dutt");
+syl = syl.replace(/dujm/g, "dutm");
+
+syl = syl.replace(/duchh/g, "dutch");
+syl = syl.replace(/duchg/g, "dutg");
+syl = syl.replace(/duchn/g, "dutn");
+syl = syl.replace(/duchd/g, "dutt");
+syl = syl.replace(/duchm/g, "dutm");
+
+syl = syl.replace(/duth/g, "dut");
+syl = syl.replace(/dutd/g, "dutt");
+
+syl = syl.replace(/duph/g, "dup");
+
+syl = syl.replace(/duhg/g, "duhk");
+syl = syl.replace(/duhr/g, "dur");
+
 //l followed by ng
 syl = syl.replace(/ola/g, "ora");
 syl = syl.replace(/ole/g, "ore");
