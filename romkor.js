@@ -3068,7 +3068,13 @@ syl = syl.replace(/wakb/g, "wagb");
 
 syl = syl.replace(/wand/g, "wand");
 syl = syl.replace(/wanr/g, "wall");
-syl = syl.replace(/wang/g, "wakk");
+syl = syl.replace(/wanga/g, "wakka");
+syl = syl.replace(/wangi/g, "wakki");
+syl = syl.replace(/wangu/g, "wakku");
+syl = syl.replace(/wange/g, "wakke");
+syl = syl.replace(/wango/g, "wakko");
+syl = syl.replace(/wangy/g, "wakky");
+syl = syl.replace(/wangw/g, "wakkw");
 
 syl = syl.replace(/wadh/g, "wadt");
 syl = syl.replace(/wadg/g, "watg");
@@ -4026,12 +4032,21 @@ syl = syl.replace(/olu/g, "oru");
 syl = syl.replace(/olo/g, "oro");
 syl = syl.replace(/oly/g, "ory");
 syl = syl.replace(/olw/g, "orw");
+	
+syl = syl.replace(/olr/g, "oll");
+syl = syl.replace(/alr/g, "all");
+syl = syl.replace(/ilr/g, "ill");
+syl = syl.replace(/ulr/g, "ull");
+syl = syl.replace(/elr/g, "ell");
 
 //individual words
 syl = syl.replace(/eobsda/g, "eopta");
 syl = syl.replace(/janha/g, "jana");
 syl = syl.replace(/chanha/g, "chana");
-
-
+syl = syl.replace(/molra/g, "molla");
+syl = syl.replace(/wakkbich/g, "wangbit");
+syl = syl.replace(/pisjul/g, "pitjul");
+syl = syl.replace(/dalrin/g, "dallin");
+ 
 document.romanization.rom.value=syl;
 }
