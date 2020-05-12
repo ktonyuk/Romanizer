@@ -2769,6 +2769,8 @@ syl = syl.replace(/gopn/g, "gomn");
 syl = syl.replace(/gopr/g, "gomn");
 syl = syl.replace(/gopm/g, "gomm");
 
+syl = syl.replace(/gos /g, "got");
+
 syl = syl.replace(/gosh/g, "got");
 syl = syl.replace(/gosg/g, "gotg");
 syl = syl.replace(/gosn/g, "gotn");
