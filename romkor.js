@@ -4047,6 +4047,7 @@ syl = syl.replace(/molra/g, "molla");
 syl = syl.replace(/wakkbich/g, "wangbit");
 syl = syl.replace(/pisjul/g, "pitjul");
 syl = syl.replace(/dalrin/g, "dallin");
- 
+syl = syl.replace(/몰랐던/g, "mollatteon");
+  
 document.romanization.rom.value=syl;
 }
