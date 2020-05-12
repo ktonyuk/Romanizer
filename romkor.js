@@ -4013,5 +4013,11 @@ syl = syl.replace(/olo/g, "oro");
 syl = syl.replace(/oly/g, "ory");
 syl = syl.replace(/olw/g, "orw");
 
+//individual words
+syl = syl.replace(/eobsda/g, "eopta");
+syl = syl.replace(/janha/g, "jana");
+syl = syl.replace(/chanha/g, "chana");
+
+
 document.romanization.rom.value=syl;
 }
