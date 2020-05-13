@@ -6158,30 +6158,35 @@ syl = syl.replace(/olri/g, "olli");
 syl = syl.replace(/olru/g, "ollu");
 syl = syl.replace(/olre/g, "olle");
 syl = syl.replace(/olro/g, "ollo");
+syl = syl.replace(/olry/g, "olly");
 	
 syl = syl.replace(/alra/g, "alla");
 syl = syl.replace(/alri/g, "alli");
 syl = syl.replace(/alru/g, "allu");
 syl = syl.replace(/alre/g, "alle");
 syl = syl.replace(/alro/g, "allo");
+syl = syl.replace(/alry/g, "ally");
 	
 syl = syl.replace(/ilra/g, "illa");
 syl = syl.replace(/ilri/g, "illi");
 syl = syl.replace(/ilru/g, "illu");
 syl = syl.replace(/ilre/g, "ille");
 syl = syl.replace(/ilro/g, "illo");
+syl = syl.replace(/ilry/g, "illy");
 	
 syl = syl.replace(/ulra/g, "ulla");
 syl = syl.replace(/ulri/g, "ulli");
 syl = syl.replace(/ulru/g, "ullu");
 syl = syl.replace(/ulre/g, "ulle");
 syl = syl.replace(/ulro/g, "ullo");
+syl = syl.replace(/ulry/g, "ully");
 	
 syl = syl.replace(/elra/g, "ella");
 syl = syl.replace(/elri/g, "elli");
 syl = syl.replace(/elru/g, "ellu");
 syl = syl.replace(/elre/g, "elle");
 syl = syl.replace(/elro/g, "ello");
+syl = syl.replace(/elry/g, "elly");
 
 //맛있는
 syl = syl.replace(/atissn/g, "ashinn");
