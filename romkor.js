@@ -7759,7 +7759,6 @@ syl = syl.replace(/issn/g, "inn");
 //꽃다운 
 syl = syl.replace(/ochda/g, "otda");
 
-
 var find = syl.match(/mos[^aeiouy]/g);
 if (find !== null) {
 	console.log(find);
@@ -7768,6 +7767,7 @@ if (find !== null) {
 	}
 }
 
+//got mot sot geot heot bit mat etc
 var find = syl.match(/gos[^aeiouy]/g);
 if (find !== null) {
 	console.log(find);
@@ -7818,11 +7818,12 @@ syl = syl.replace(/dalrin/g, "dallin");
 syl = syl.replace(/anha/g, "ana");
 syl = syl.replace(/geureohk/g, "geureok");
 	
-	
+
+//english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
 syl = syl.replace(/coror/g, "color");
 syl = syl.replace(/sirent/g, "silent");
 	
-  
+
 document.romanization.rom.value=syl;
 }
