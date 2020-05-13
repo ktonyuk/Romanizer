@@ -4473,7 +4473,7 @@ syl = syl.replace(/mapr/g, "mamn");
 syl = syl.replace(/mapm/g, "mamm");
 
 syl = syl.replace(/masha/g, "mata");
-syl = syl.replace(/mashi/g, "mati");
+//syl = syl.replace(/mashi/g, "mati"); doesn't work for 야식에
 syl = syl.replace(/mashu/g, "matu");
 syl = syl.replace(/mashe/g, "mate");
 syl = syl.replace(/masho/g, "mato");
@@ -7756,6 +7756,9 @@ syl = syl.replace(/dato/g, "dacho");
 syl = syl.replace(/issg/g, "itg");
 syl = syl.replace(/issn/g, "inn");
 
+//꽃다
+syl = syl.replace(/ochda/g, "otda");
+
 
 var find = syl.match(/mos[^aeiouy]/g);
 if (find !== null) {
@@ -7799,6 +7802,9 @@ if (find !== null) {
 
 //individual words
 syl = syl.replace(/eopsda/g, "eopta");
+syl = syl.replace(/eopsja/g, "eopja");
+syl = syl.replace(/eopsji/g, "eopji");
+	
 syl = syl.replace(/eopsi/g, "eopshi");
 syl = syl.replace(/ilheo/g, "ireo");
 syl = syl.replace(/eopsn/g, "eomn");
