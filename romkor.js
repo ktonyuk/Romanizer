@@ -7817,6 +7817,9 @@ syl = syl.replace(/pisjul/g, "pitjul");
 syl = syl.replace(/dalrin/g, "dallin");
 syl = syl.replace(/anha/g, "ana");
 syl = syl.replace(/geureohk/g, "geureok");
+syl = syl.replace(/bitn/g, "binn");
+syl = syl.replace(/ireohke/g, "ireoke");
+syl = syl.replace(/bitn/g, "binn");
 	
 
 //english word corrections that don't interfer with korean words
