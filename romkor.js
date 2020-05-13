@@ -7398,6 +7398,27 @@ syl = syl.replace(/kyukw/g, "kyugw");
 syl = syl.replace(/tyukw/g, "tyugw");
 syl = syl.replace(/hyukw/g, "hyugw");
 
+//랐던 ss followed by n d j
+syl = syl.replace(/issn/g, "int");
+syl = syl.replace(/issd/g, "itt");
+syl = syl.replace(/issj/g, "itch");
+
+syl = syl.replace(/assn/g, "ant");
+syl = syl.replace(/assd/g, "att");
+syl = syl.replace(/assj/g, "atch");
+
+syl = syl.replace(/essn/g, "ent");
+syl = syl.replace(/essd/g, "ett");
+syl = syl.replace(/essj/g, "etch");
+
+syl = syl.replace(/ossn/g, "ont");
+syl = syl.replace(/ossd/g, "ott");
+syl = syl.replace(/ossj/g, "otch");
+
+syl = syl.replace(/ussn/g, "unt");
+syl = syl.replace(/ussd/g, "utt");
+syl = syl.replace(/ussj/g, "utch");
+	
 
 var find = syl.match(/mos[^aeiouy]/g);
 if (find !== null) {
