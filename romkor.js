@@ -1344,18 +1344,18 @@ syl = syl.replace(/쓺/g, "sseulm");
 syl = syl.replace(/쓿/g, "sseulh");
 syl = syl.replace(/씀/g, "sseum");
 syl = syl.replace(/씁/g, "sseup");
-syl = syl.replace(/씌/g, "ssi");
+syl = syl.replace(/씌/g, "sshi");
 syl = syl.replace(/씐/g, "ssuin");
 syl = syl.replace(/씔/g, "ssuil");
 syl = syl.replace(/씜/g, "ssuim");
-syl = syl.replace(/씨/g, "ssi");
-syl = syl.replace(/씩/g, "ssik");
-syl = syl.replace(/씬/g, "ssin");
-syl = syl.replace(/씰/g, "ssil");
-syl = syl.replace(/씸/g, "ssim");
-syl = syl.replace(/씹/g, "ssip");
-syl = syl.replace(/씻/g, "ssis");
-syl = syl.replace(/씽/g, "ssing");
+syl = syl.replace(/씨/g, "sshi");
+syl = syl.replace(/씩/g, "sshik");
+syl = syl.replace(/씬/g, "sshin");
+syl = syl.replace(/씰/g, "sshil");
+syl = syl.replace(/씸/g, "sshim");
+syl = syl.replace(/씹/g, "sship");
+syl = syl.replace(/씻/g, "sshis");
+syl = syl.replace(/씽/g, "sshing");
 syl = syl.replace(/아/g, "a");
 syl = syl.replace(/악/g, "ak");
 syl = syl.replace(/안/g, "an");
@@ -1861,8 +1861,8 @@ syl = syl.replace(/춤/g, "chum");
 syl = syl.replace(/춥/g, "chup");
 syl = syl.replace(/춧/g, "chus");
 syl = syl.replace(/충/g, "chung");
-syl = syl.replace(/춰/g, "chweo");
-syl = syl.replace(/췄/g, "chweoss");
+syl = syl.replace(/춰/g, "chwo");
+syl = syl.replace(/췄/g, "chwoss");
 syl = syl.replace(/췌/g, "chwe");
 syl = syl.replace(/췐/g, "chwen");
 syl = syl.replace(/취/g, "chwi");
@@ -5752,7 +5752,6 @@ syl = syl.replace(/sapn/g, "samn");
 syl = syl.replace(/sapr/g, "samn");
 syl = syl.replace(/sapm/g, "samm");
 
-syl = syl.replace(/sash/g, "sat");
 syl = syl.replace(/sasg/g, "satg");
 syl = syl.replace(/sasn/g, "satn");
 syl = syl.replace(/sasd/g, "satt");
@@ -7793,7 +7792,36 @@ syl = syl.replace(/hiph/g, "hip");
 
 syl = syl.replace(/hihg/g, "hihk");
 syl = syl.replace(/hihr/g, "hir");
-	
+
+//같이
+syl = syl.replace(/gati/g, "gachi");
+syl = syl.replace(/bati/g, "bachi");
+syl = syl.replace(/nati/g, "nachi");
+syl = syl.replace(/mati/g, "machi");
+syl = syl.replace(/hati/g, "hachi");
+syl = syl.replace(/rati/g, "rachi");
+syl = syl.replace(/dati/g, "dachi");
+
+syl = syl.replace(/gata/g, "gacha");
+syl = syl.replace(/bata/g, "bacha");
+syl = syl.replace(/nata/g, "nacha");
+syl = syl.replace(/mata/g, "macha");
+syl = syl.replace(/hata/g, "hacha");
+syl = syl.replace(/rata/g, "racha");
+syl = syl.replace(/data/g, "dacha");
+
+syl = syl.replace(/gato/g, "gacho");
+syl = syl.replace(/bato/g, "bacho");
+syl = syl.replace(/nato/g, "nacho");
+syl = syl.replace(/mato/g, "macho");
+syl = syl.replace(/hato/g, "hacho");
+syl = syl.replace(/rato/g, "racho");
+syl = syl.replace(/dato/g, "dacho");
+
+//있는 있게 
+syl = syl.replace(/issg/g, "itg");
+syl = syl.replace(/issn/g, "inn");
+
 
 var find = syl.match(/mos[^aeiouy]/g);
 if (find !== null) {
@@ -7826,16 +7854,32 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/bich/g, "bit"));
 	}
 }
+	
+var find = syl.match(/[^aeiouy]wit/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/wit/g, "with"));
+	}
+}
+
 //individual words
 syl = syl.replace(/eopsda/g, "eopta");
 syl = syl.replace(/eopsn/g, "eomn");
 syl = syl.replace(/janha/g, "jana");
 syl = syl.replace(/chanha/g, "chana");
+syl = syl.replace(/anheul/g, "aneul");
 syl = syl.replace(/molra/g, "molla");
 syl = syl.replace(/wakkbich/g, "wangbit");
 syl = syl.replace(/pisjul/g, "pitjul");
 syl = syl.replace(/dalrin/g, "dallin");
 syl = syl.replace(/anha/g, "ana");
+syl = syl.replace(/geureohk/g, "geureok");
+	
+	
+syl = syl.replace(/lonery/g, "lonely");
+syl = syl.replace(/corored/g, "colored");
+syl = syl.replace(/sirent/g, "silent");
 	
   
 document.romanization.rom.value=syl;
