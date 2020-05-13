@@ -6116,7 +6116,47 @@ syl = syl.replace(/olu/g, "oru");
 syl = syl.replace(/olo/g, "oro");
 syl = syl.replace(/oly/g, "ory");
 syl = syl.replace(/olw/g, "orw");
-	
+
+syl = syl.replace(/ala/g, "ara");
+syl = syl.replace(/ale/g, "are");
+syl = syl.replace(/ali/g, "ari");
+syl = syl.replace(/alu/g, "aru");
+syl = syl.replace(/alo/g, "aro");
+syl = syl.replace(/aly/g, "ary");
+syl = syl.replace(/alw/g, "arw");
+
+syl = syl.replace(/ila/g, "ira");
+syl = syl.replace(/ile/g, "ire");
+syl = syl.replace(/ili/g, "iri");
+syl = syl.replace(/ilu/g, "iru");
+syl = syl.replace(/ilo/g, "iro");
+syl = syl.replace(/ily/g, "iry");
+syl = syl.replace(/ilw/g, "irw");
+
+syl = syl.replace(/ela/g, "era");
+syl = syl.replace(/ele/g, "ere");
+syl = syl.replace(/eli/g, "eri");
+syl = syl.replace(/elu/g, "eru");
+syl = syl.replace(/elo/g, "ero");
+syl = syl.replace(/ely/g, "ery");
+syl = syl.replace(/elw/g, "erw");
+
+syl = syl.replace(/ula/g, "ura");
+syl = syl.replace(/ule/g, "ure");
+syl = syl.replace(/uli/g, "uri");
+syl = syl.replace(/ulu/g, "uru");
+syl = syl.replace(/ulo/g, "uro");
+syl = syl.replace(/uly/g, "ury");
+syl = syl.replace(/ulw/g, "urw");
+
+syl = syl.replace(/ola/g, "ora");
+syl = syl.replace(/ole/g, "ore");
+syl = syl.replace(/oli/g, "ori");
+syl = syl.replace(/olu/g, "oru");
+syl = syl.replace(/olo/g, "oro");
+syl = syl.replace(/oly/g, "ory");
+syl = syl.replace(/olw/g, "orw");
+
 syl = syl.replace(/olra/g, "olla");
 syl = syl.replace(/olri/g, "olli");
 syl = syl.replace(/olru/g, "ollu");
