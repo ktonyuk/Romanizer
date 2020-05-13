@@ -4761,6 +4761,36 @@ syl = syl.replace(/elru/g, "ellu");
 syl = syl.replace(/elre/g, "elle");
 syl = syl.replace(/elro/g, "ello");
 
+//맛있는
+syl = syl.replace(/atissn/g, "ashinn");
+syl = syl.replace(/itissn/g, "ishinn");
+syl = syl.replace(/etissn/g, "eshinn");
+syl = syl.replace(/utissn/g, "ushinn");
+syl = syl.replace(/otissn/g, "oshinn");
+
+syl = syl.replace(/atassn/g, "ashann");
+syl = syl.replace(/itassn/g, "ishann");
+syl = syl.replace(/etassn/g, "eshann");
+syl = syl.replace(/utassn/g, "ushann");
+syl = syl.replace(/otassn/g, "oshann");
+
+syl = syl.replace(/atessn/g, "ashenn");
+syl = syl.replace(/itessn/g, "ishenn");
+syl = syl.replace(/etessn/g, "eshenn");
+syl = syl.replace(/utessn/g, "ushenn");
+syl = syl.replace(/otessn/g, "oshenn");
+
+syl = syl.replace(/atussn/g, "ashunn");
+syl = syl.replace(/itussn/g, "ishunn");
+syl = syl.replace(/etussn/g, "eshunn");
+syl = syl.replace(/utussn/g, "ushunn");
+syl = syl.replace(/otussn/g, "oshunn");
+
+syl = syl.replace(/atossn/g, "ashonn");
+syl = syl.replace(/itossn/g, "ishonn");
+syl = syl.replace(/etossn/g, "eshonn");
+syl = syl.replace(/utossn/g, "ushonn");
+syl = syl.replace(/otossn/g, "oshonn");
 
 var find = syl.match(/mos[^aeiouy]/g);
 if (find !== null) {
