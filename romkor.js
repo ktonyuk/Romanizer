@@ -2366,7 +2366,6 @@ syl = syl.replace(/gakb/g, "gagb");
 
 syl = syl.replace(/gand/g, "gand");
 syl = syl.replace(/ganr/g, "gall");
-syl = syl.replace(/gang/g, "gakk");
 
 syl = syl.replace(/gadh/g, "gadt");
 syl = syl.replace(/gadg/g, "gatg");
@@ -2429,7 +2428,6 @@ syl = syl.replace(/gaekb/g, "gaegb");
 
 syl = syl.replace(/gaend/g, "gaend");
 syl = syl.replace(/gaenr/g, "gaell");
-syl = syl.replace(/gaeng/g, "gaekk");
 
 syl = syl.replace(/gaedh/g, "gaedt");
 syl = syl.replace(/gaedg/g, "gaetg");
@@ -2493,7 +2491,6 @@ syl = syl.replace(/gyakb/g, "gyagb");
 
 syl = syl.replace(/gyand/g, "gyand");
 syl = syl.replace(/gyanr/g, "gyall");
-syl = syl.replace(/gyang/g, "gyakk");
 
 syl = syl.replace(/gyadh/g, "gyadt");
 syl = syl.replace(/gyadg/g, "gyatg");
@@ -2556,7 +2553,6 @@ syl = syl.replace(/geokb/g, "geogb");
 
 syl = syl.replace(/geond/g, "geond");
 syl = syl.replace(/geonr/g, "geoll");
-syl = syl.replace(/geong/g, "geokk");
 
 syl = syl.replace(/geodh/g, "geodt");
 syl = syl.replace(/geodg/g, "geotg");
@@ -2620,7 +2616,6 @@ syl = syl.replace(/gekb/g, "gegb");
 
 syl = syl.replace(/gend/g, "gend");
 syl = syl.replace(/genr/g, "gell");
-syl = syl.replace(/geng/g, "gekk");
 
 syl = syl.replace(/gedh/g, "gedt");
 syl = syl.replace(/gedg/g, "getg");
@@ -2683,7 +2678,6 @@ syl = syl.replace(/gyekb/g, "gyegb");
 
 syl = syl.replace(/gyend/g, "gyend");
 syl = syl.replace(/gyenr/g, "gyell");
-syl = syl.replace(/gyeng/g, "gyekk");
 
 syl = syl.replace(/gyedh/g, "gyedt");
 syl = syl.replace(/gyedg/g, "gyetg");
@@ -2746,7 +2740,6 @@ syl = syl.replace(/gokb/g, "gogb");
 
 syl = syl.replace(/gond/g, "gond");
 syl = syl.replace(/gonr/g, "goll");
-syl = syl.replace(/gong/g, "gokk");
 
 syl = syl.replace(/godh/g, "godt");
 syl = syl.replace(/godg/g, "gotg");
@@ -2811,7 +2804,6 @@ syl = syl.replace(/gukb/g, "gugb");
 
 syl = syl.replace(/gund/g, "gund");
 syl = syl.replace(/gunr/g, "gull");
-syl = syl.replace(/gung/g, "gukk");
 
 syl = syl.replace(/gudh/g, "gudt");
 syl = syl.replace(/gudg/g, "gutg");
@@ -2874,7 +2866,6 @@ syl = syl.replace(/gikb/g, "gigb");
 
 syl = syl.replace(/gind/g, "gind");
 syl = syl.replace(/ginr/g, "gill");
-syl = syl.replace(/ging/g, "gikk");
 
 syl = syl.replace(/gidh/g, "gidt");
 syl = syl.replace(/gidg/g, "gitg");
@@ -2937,7 +2928,6 @@ syl = syl.replace(/yaekb/g, "yaegb");
 
 syl = syl.replace(/yaend/g, "yaend");
 syl = syl.replace(/yaenr/g, "yaell");
-syl = syl.replace(/yaeng/g, "yaekk");
 
 syl = syl.replace(/yaedh/g, "yaedt");
 syl = syl.replace(/yaedg/g, "yaetg");
@@ -3001,7 +2991,6 @@ syl = syl.replace(/yeokb/g, "yeogb");
 
 syl = syl.replace(/yeond/g, "yeond");
 syl = syl.replace(/yeonr/g, "yeoll");
-syl = syl.replace(/yeong/g, "yeokk");
 
 syl = syl.replace(/yeodh/g, "yeodt");
 syl = syl.replace(/yeodg/g, "yeotg");
@@ -3133,7 +3122,6 @@ syl = syl.replace(/waekb/g, "waegb");
 
 syl = syl.replace(/waend/g, "waend");
 syl = syl.replace(/waenr/g, "waell");
-syl = syl.replace(/waeng/g, "waekk");
 
 syl = syl.replace(/waedh/g, "waedt");
 syl = syl.replace(/waedg/g, "waetg");
@@ -3196,7 +3184,6 @@ syl = syl.replace(/wokb/g, "wogb");
 
 syl = syl.replace(/wond/g, "wond");
 syl = syl.replace(/wonr/g, "woll");
-syl = syl.replace(/wong/g, "wokk");
 
 syl = syl.replace(/wodh/g, "wodt");
 syl = syl.replace(/wodg/g, "wotg");
@@ -3259,7 +3246,6 @@ syl = syl.replace(/wekb/g, "wegb");
 
 syl = syl.replace(/wend/g, "wend");
 syl = syl.replace(/wenr/g, "well");
-syl = syl.replace(/weng/g, "wekk");
 
 syl = syl.replace(/wedh/g, "wedt");
 syl = syl.replace(/wedg/g, "wetg");
@@ -3322,7 +3308,6 @@ syl = syl.replace(/wikb/g, "wigb");
 
 syl = syl.replace(/wind/g, "wind");
 syl = syl.replace(/winr/g, "will");
-syl = syl.replace(/wing/g, "wikk");
 
 syl = syl.replace(/widh/g, "widt");
 syl = syl.replace(/widg/g, "witg");
@@ -3385,7 +3370,6 @@ syl = syl.replace(/yukb/g, "yugb");
 
 syl = syl.replace(/yund/g, "yund");
 syl = syl.replace(/yunr/g, "yull");
-syl = syl.replace(/yung/g, "yukk");
 
 syl = syl.replace(/yudh/g, "yudt");
 syl = syl.replace(/yudg/g, "yutg");
@@ -3448,7 +3432,6 @@ syl = syl.replace(/eukb/g, "eugb");
 
 syl = syl.replace(/eund/g, "eund");
 syl = syl.replace(/eunr/g, "eull");
-syl = syl.replace(/eung/g, "eukk");
 
 syl = syl.replace(/eudh/g, "eudt");
 syl = syl.replace(/eudg/g, "eutg");
@@ -3513,7 +3496,6 @@ syl = syl.replace(/oekb/g, "oegb");
 
 syl = syl.replace(/oend/g, "oend");
 syl = syl.replace(/oenr/g, "oell");
-syl = syl.replace(/oeng/g, "oekk");
 
 syl = syl.replace(/oedh/g, "oedt");
 syl = syl.replace(/oedg/g, "oetg");
@@ -3576,7 +3558,6 @@ syl = syl.replace(/aekb/g, "aegb");
 
 syl = syl.replace(/aend/g, "aend");
 syl = syl.replace(/aenr/g, "aell");
-syl = syl.replace(/aeng/g, "aekk");
 
 syl = syl.replace(/aedh/g, "aedt");
 syl = syl.replace(/aedg/g, "aetg");
@@ -3639,13 +3620,6 @@ syl = syl.replace(/eokb/g, "eogb");
 
 syl = syl.replace(/eond/g, "eond");
 syl = syl.replace(/eonr/g, "eoll");
-syl = syl.replace(/eongi/g, "eokki");
-syl = syl.replace(/eonga/g, "eokka");
-syl = syl.replace(/eonge/g, "eokke");
-syl = syl.replace(/eongo/g, "eokko");
-syl = syl.replace(/eongu/g, "eokku");
-syl = syl.replace(/eongy/g, "eokky");
-syl = syl.replace(/eongw/g, "eokkw");
 
 syl = syl.replace(/eodh/g, "eodt");
 syl = syl.replace(/eodg/g, "eotg");
@@ -3708,7 +3682,6 @@ syl = syl.replace(/yekb/g, "yegb");
 
 syl = syl.replace(/yend/g, "yend");
 syl = syl.replace(/yenr/g, "yell");
-syl = syl.replace(/yeng/g, "yekk");
 
 syl = syl.replace(/yedh/g, "yedt");
 syl = syl.replace(/yedg/g, "yetg");
@@ -3772,13 +3745,6 @@ syl = syl.replace(/yokb/g, "yogb");
 
 syl = syl.replace(/yond/g, "yond");
 syl = syl.replace(/yonr/g, "yoll");
-syl = syl.replace(/yonga/g, "yokkq");
-syl = syl.replace(/yongi/g, "yokki");
-syl = syl.replace(/yongu/g, "yokku");
-syl = syl.replace(/yonge/g, "yokke");
-syl = syl.replace(/yongo/g, "yokko");
-syl = syl.replace(/yongy/g, "yokky");
-syl = syl.replace(/yongw/g, "yokkw");
 
 syl = syl.replace(/yodh/g, "yodt");
 syl = syl.replace(/yodg/g, "yotg");
@@ -3841,7 +3807,6 @@ syl = syl.replace(/yakb/g, "yagb");
 
 syl = syl.replace(/yand/g, "yand");
 syl = syl.replace(/yanr/g, "yall");
-syl = syl.replace(/yang/g, "yakk");
 
 syl = syl.replace(/yadh/g, "yadt");
 syl = syl.replace(/yadg/g, "yatg");
@@ -3904,7 +3869,6 @@ syl = syl.replace(/nikb/g, "nigb");
 
 syl = syl.replace(/nind/g, "nind");
 syl = syl.replace(/ninr/g, "nill");
-syl = syl.replace(/ning/g, "nikk");
 
 syl = syl.replace(/nidh/g, "nidt");
 syl = syl.replace(/nidg/g, "nitg");
@@ -3967,8 +3931,7 @@ syl = syl.replace(/nakb/g, "nagb");
 
 syl = syl.replace(/nand/g, "nand");
 syl = syl.replace(/nanr/g, "nall");
-syl = syl.replace(/nang/g, "nakk");
-
+	
 syl = syl.replace(/nadh/g, "nadt");
 syl = syl.replace(/nadg/g, "natg");
 syl = syl.replace(/nadd/g, "natt");
@@ -4030,7 +3993,6 @@ syl = syl.replace(/nekb/g, "negb");
 
 syl = syl.replace(/nend/g, "nend");
 syl = syl.replace(/nenr/g, "nell");
-syl = syl.replace(/neng/g, "nekk");
 
 syl = syl.replace(/nedh/g, "nedt");
 syl = syl.replace(/nedg/g, "netg");
@@ -4093,7 +4055,6 @@ syl = syl.replace(/nokb/g, "nogb");
 
 syl = syl.replace(/nond/g, "nond");
 syl = syl.replace(/nonr/g, "noll");
-syl = syl.replace(/nong/g, "nokk");
 
 syl = syl.replace(/nodh/g, "nodt");
 syl = syl.replace(/nodg/g, "notg");
@@ -4156,7 +4117,6 @@ syl = syl.replace(/nukb/g, "nugb");
 
 syl = syl.replace(/nund/g, "nund");
 syl = syl.replace(/nunr/g, "null");
-syl = syl.replace(/nung/g, "nukk");
 
 syl = syl.replace(/nudh/g, "nudt");
 syl = syl.replace(/nudg/g, "nutg");
@@ -4219,7 +4179,6 @@ syl = syl.replace(/dakb/g, "dagb");
 
 syl = syl.replace(/dand/g, "dand");
 syl = syl.replace(/danr/g, "dall");
-syl = syl.replace(/dang/g, "dakk");
 
 syl = syl.replace(/dadh/g, "dadt");
 syl = syl.replace(/dadg/g, "datg");
@@ -4282,7 +4241,6 @@ syl = syl.replace(/dekb/g, "degb");
 
 syl = syl.replace(/dend/g, "dend");
 syl = syl.replace(/denr/g, "dell");
-syl = syl.replace(/deng/g, "dekk");
 
 syl = syl.replace(/dedh/g, "dedt");
 syl = syl.replace(/dedg/g, "detg");
@@ -4345,7 +4303,6 @@ syl = syl.replace(/dokb/g, "dogb");
 
 syl = syl.replace(/dond/g, "dond");
 syl = syl.replace(/donr/g, "doll");
-syl = syl.replace(/dong/g, "dokk");
 
 syl = syl.replace(/dodh/g, "dodt");
 syl = syl.replace(/dodg/g, "dotg");
@@ -4408,7 +4365,6 @@ syl = syl.replace(/dukb/g, "dugb");
 
 syl = syl.replace(/dund/g, "dund");
 syl = syl.replace(/dunr/g, "dull");
-syl = syl.replace(/dung/g, "dukk");
 
 syl = syl.replace(/dudh/g, "dudt");
 syl = syl.replace(/dudg/g, "dutg");
@@ -4471,7 +4427,6 @@ syl = syl.replace(/dikb/g, "digb");
 
 syl = syl.replace(/dind/g, "dind");
 syl = syl.replace(/dinr/g, "dill");
-syl = syl.replace(/ding/g, "dikk");
 
 syl = syl.replace(/didh/g, "didt");
 syl = syl.replace(/didg/g, "ditg");
@@ -4534,7 +4489,6 @@ syl = syl.replace(/makb/g, "magb");
 
 syl = syl.replace(/mand/g, "mand");
 syl = syl.replace(/manr/g, "mall");
-syl = syl.replace(/mang/g, "makk");
 
 syl = syl.replace(/madh/g, "madt");
 syl = syl.replace(/madg/g, "matg");
@@ -4602,7 +4556,6 @@ syl = syl.replace(/mekb/g, "megb");
 
 syl = syl.replace(/mend/g, "mend");
 syl = syl.replace(/menr/g, "mell");
-syl = syl.replace(/meng/g, "mekk");
 
 syl = syl.replace(/medh/g, "medt");
 syl = syl.replace(/medg/g, "metg");
@@ -4665,7 +4618,6 @@ syl = syl.replace(/mokb/g, "mogb");
 
 syl = syl.replace(/mond/g, "mond");
 syl = syl.replace(/monr/g, "moll");
-syl = syl.replace(/mong/g, "mokk");
 
 syl = syl.replace(/modh/g, "modt");
 syl = syl.replace(/modg/g, "motg");
@@ -4728,7 +4680,6 @@ syl = syl.replace(/mukb/g, "mugb");
 
 syl = syl.replace(/mund/g, "mund");
 syl = syl.replace(/munr/g, "mull");
-syl = syl.replace(/mung/g, "mukk");
 
 syl = syl.replace(/mudh/g, "mudt");
 syl = syl.replace(/mudg/g, "mutg");
@@ -4791,7 +4742,6 @@ syl = syl.replace(/mikb/g, "migb");
 
 syl = syl.replace(/mind/g, "mind");
 syl = syl.replace(/minr/g, "mill");
-syl = syl.replace(/ming/g, "mikk");
 
 syl = syl.replace(/midh/g, "midt");
 syl = syl.replace(/midg/g, "mitg");
@@ -4854,7 +4804,6 @@ syl = syl.replace(/bakb/g, "bagb");
 
 syl = syl.replace(/band/g, "band");
 syl = syl.replace(/banr/g, "ball");
-syl = syl.replace(/bang/g, "bakk");
 
 syl = syl.replace(/badh/g, "badt");
 syl = syl.replace(/badg/g, "batg");
@@ -4917,7 +4866,6 @@ syl = syl.replace(/bekb/g, "begb");
 
 syl = syl.replace(/bend/g, "bend");
 syl = syl.replace(/benr/g, "bell");
-syl = syl.replace(/beng/g, "bekk");
 
 syl = syl.replace(/bedh/g, "bedt");
 syl = syl.replace(/bedg/g, "betg");
@@ -4980,7 +4928,6 @@ syl = syl.replace(/bokb/g, "bogb");
 
 syl = syl.replace(/bond/g, "bond");
 syl = syl.replace(/bonr/g, "boll");
-syl = syl.replace(/bong/g, "bokk");
 
 syl = syl.replace(/bodh/g, "bodt");
 syl = syl.replace(/bodg/g, "botg");
@@ -5043,7 +4990,6 @@ syl = syl.replace(/bukb/g, "bugb");
 
 syl = syl.replace(/bund/g, "bund");
 syl = syl.replace(/bunr/g, "bull");
-syl = syl.replace(/bung/g, "bukk");
 
 syl = syl.replace(/budh/g, "budt");
 syl = syl.replace(/budg/g, "butg");
@@ -5106,7 +5052,6 @@ syl = syl.replace(/bikb/g, "bigb");
 
 syl = syl.replace(/bind/g, "bind");
 syl = syl.replace(/binr/g, "bill");
-syl = syl.replace(/bing/g, "bikk");
 
 syl = syl.replace(/bidh/g, "bidt");
 syl = syl.replace(/bidg/g, "bitg");
@@ -5169,7 +5114,6 @@ syl = syl.replace(/jakb/g, "jagb");
 
 syl = syl.replace(/jand/g, "jand");
 syl = syl.replace(/janr/g, "jall");
-syl = syl.replace(/jang/g, "jakk");
 
 syl = syl.replace(/jadh/g, "jadt");
 syl = syl.replace(/jadg/g, "jatg");
@@ -5232,7 +5176,6 @@ syl = syl.replace(/jekb/g, "jegb");
 
 syl = syl.replace(/jend/g, "jend");
 syl = syl.replace(/jenr/g, "jell");
-syl = syl.replace(/jeng/g, "jekk");
 
 syl = syl.replace(/jedh/g, "jedt");
 syl = syl.replace(/jedg/g, "jetg");
@@ -5295,7 +5238,6 @@ syl = syl.replace(/jokb/g, "jogb");
 
 syl = syl.replace(/jond/g, "jond");
 syl = syl.replace(/jonr/g, "joll");
-syl = syl.replace(/jong/g, "jokk");
 
 syl = syl.replace(/jodh/g, "jodt");
 syl = syl.replace(/jodg/g, "jotg");
@@ -5358,7 +5300,6 @@ syl = syl.replace(/jukb/g, "jugb");
 
 syl = syl.replace(/jund/g, "jund");
 syl = syl.replace(/junr/g, "jull");
-syl = syl.replace(/jung/g, "jukk");
 
 syl = syl.replace(/judh/g, "judt");
 syl = syl.replace(/judg/g, "jutg");
@@ -5421,7 +5362,6 @@ syl = syl.replace(/jikb/g, "jigb");
 
 syl = syl.replace(/jind/g, "jind");
 syl = syl.replace(/jinr/g, "jill");
-syl = syl.replace(/jing/g, "jikk");
 
 syl = syl.replace(/jidh/g, "jidt");
 syl = syl.replace(/jidg/g, "jitg");
@@ -5484,7 +5424,6 @@ syl = syl.replace(/chakb/g, "chagb");
 
 syl = syl.replace(/chand/g, "chand");
 syl = syl.replace(/chanr/g, "chall");
-syl = syl.replace(/chang/g, "chakk");
 
 syl = syl.replace(/chadh/g, "chadt");
 syl = syl.replace(/chadg/g, "chatg");
@@ -5547,7 +5486,6 @@ syl = syl.replace(/chekb/g, "chegb");
 
 syl = syl.replace(/chend/g, "chend");
 syl = syl.replace(/chenr/g, "chell");
-syl = syl.replace(/cheng/g, "chekk");
 
 syl = syl.replace(/chedh/g, "chedt");
 syl = syl.replace(/chedg/g, "chetg");
@@ -5610,7 +5548,6 @@ syl = syl.replace(/chokb/g, "chogb");
 
 syl = syl.replace(/chond/g, "chond");
 syl = syl.replace(/chonr/g, "choll");
-syl = syl.replace(/chong/g, "chokk");
 
 syl = syl.replace(/chodh/g, "chodt");
 syl = syl.replace(/chodg/g, "chotg");
@@ -5673,7 +5610,6 @@ syl = syl.replace(/chukb/g, "chugb");
 
 syl = syl.replace(/chund/g, "chund");
 syl = syl.replace(/chunr/g, "chull");
-syl = syl.replace(/chung/g, "chukk");
 
 syl = syl.replace(/chudh/g, "chudt");
 syl = syl.replace(/chudg/g, "chutg");
@@ -5736,7 +5672,6 @@ syl = syl.replace(/chikb/g, "chigb");
 
 syl = syl.replace(/chind/g, "chind");
 syl = syl.replace(/chinr/g, "chill");
-syl = syl.replace(/ching/g, "chikk");
 
 syl = syl.replace(/chidh/g, "chidt");
 syl = syl.replace(/chidg/g, "chitg");
@@ -5799,7 +5734,6 @@ syl = syl.replace(/sakb/g, "sagb");
 
 syl = syl.replace(/sand/g, "sand");
 syl = syl.replace(/sanr/g, "sall");
-syl = syl.replace(/sang/g, "sakk");
 
 syl = syl.replace(/sadh/g, "sadt");
 syl = syl.replace(/sadg/g, "satg");
@@ -5862,7 +5796,6 @@ syl = syl.replace(/sekb/g, "segb");
 
 syl = syl.replace(/send/g, "send");
 syl = syl.replace(/senr/g, "sell");
-syl = syl.replace(/seng/g, "sekk");
 
 syl = syl.replace(/sedh/g, "sedt");
 syl = syl.replace(/sedg/g, "setg");
@@ -7904,7 +7837,9 @@ if (find !== null) {
 	}
 }
 //individual words
-syl = syl.replace(/eobsda/g, "eopta");
+syl = syl.replace(/eopsda/g, "eopta");
+syl = syl.replace(/eopsn/g, "eomn");
+	
 syl = syl.replace(/janha/g, "jana");
 syl = syl.replace(/chanha/g, "chana");
 syl = syl.replace(/molra/g, "molla");
