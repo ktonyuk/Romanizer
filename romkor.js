@@ -7833,7 +7833,8 @@ syl = syl.replace(/jigyeo/g, "jikyeo");
 syl = syl.replace(/manhi/g, "mani");
 syl = syl.replace(/ssahyeo/g, "ssayeo");
 syl = syl.replace(/daheumyeon/g, "daeumyeon");
-
+syl = syl.replace(/myeoti/g, "myeoshi");
+  
 
 //english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
