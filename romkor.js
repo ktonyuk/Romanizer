@@ -6269,7 +6269,6 @@ syl = syl.replace(/make/g, "mage");
 syl = syl.replace(/dake/g, "dage");
 syl = syl.replace(/jake/g, "jage");
 syl = syl.replace(/kake/g, "kage");
-syl = syl.replace(/take/g, "tage");
 syl = syl.replace(/hake/g, "hage");
 
 syl = syl.replace(/cheke/g, "chege");
@@ -7835,7 +7834,6 @@ syl = syl.replace(/horiday/g, "holiday");
 syl = syl.replace(/lovery/g, "lovely");
 syl = syl.replace(/rerentless/g, "relentless");
 syl = syl.replace(/arone/g, "alone");
-syl = syl.replace(/tage/g, "kale");
 syl = syl.replace(/togeter/g, "together");
 syl = syl.replace(/feering/g, "feeling");
 syl = syl.replace(/pire/g, "pile");
