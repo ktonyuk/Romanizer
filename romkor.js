@@ -3336,7 +3336,7 @@ syl = syl.replace(/wichn/g, "witn");
 syl = syl.replace(/wichd/g, "witt");
 syl = syl.replace(/wichm/g, "witm");
 
-syl = syl.replace(/with/g, "wit");
+//syl = syl.replace(/with/g, "wit"); english word "with"
 syl = syl.replace(/witd/g, "witt");
 
 syl = syl.replace(/wiph/g, "wip");
