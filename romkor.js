@@ -7800,41 +7800,41 @@ if (find !== null) {
 }
 
 //individual words
+syl = syl.replace(/anha/g, "ana");
+syl = syl.replace(/anheul/g, "aneul");
+syl = syl.replace(/banan/g, "banhan");
+syl = syl.replace(/bitn/g, "binn");
+syl = syl.replace(/bissori/g, "bitsori"); 
+syl = syl.replace(/bogotip/g, "bogoship");
+syl = syl.replace(/chanha/g, "chana");
+syl = syl.replace(/dalrin/g, "dallin");
+syl = syl.replace(/deuti/g, "deushi");
+syl = syl.replace(/daheumyeon/g, "daeumyeon");
 syl = syl.replace(/eopsda/g, "eopta");
 syl = syl.replace(/eopsja/g, "eopja");
 syl = syl.replace(/eopsji/g, "eopji");
 syl = syl.replace(/eopsi/g, "eopshi");
-syl = syl.replace(/ilheo/g, "ireo");
 syl = syl.replace(/eopsn/g, "eomn");
-syl = syl.replace(/janha/g, "jana");
-syl = syl.replace(/chanha/g, "chana");
-syl = syl.replace(/anheul/g, "aneul");
-syl = syl.replace(/molra/g, "molla");
-syl = syl.replace(/wakkbich/g, "wangbit");
-syl = syl.replace(/pisjul/g, "pitjul");
-syl = syl.replace(/dalrin/g, "dallin");
-syl = syl.replace(/deuti/g, "deushi");
-syl = syl.replace(/anha/g, "ana");
-syl = syl.replace(/geureohk/g, "geureok");
-syl = syl.replace(/bitn/g, "binn");
+syl = syl.replace(/ilheo/g, "ireo");
 syl = syl.replace(/ireohke/g, "ireoke");
-syl = syl.replace(/bitn/g, "binn");
-syl = syl.replace(/bissori/g, "bitsori"); 
-syl = syl.replace(/usneun/g, "unneun");
-syl = syl.replace(/yetigye/g, "uishige");
-syl = syl.replace(/meosji/g, "meotji");
-syl = syl.replace(/bogotip/g, "bogoship");
-syl = syl.replace(/jotim/g, "joshim"); //joshimseure
 syl = syl.replace(/ipmajchum/g, "immatchum");
-syl = syl.replace(/nohji/g, "nochi");
-syl = syl.replace(/nohko/g, "noko");
+syl = syl.replace(/geureohk/g, "geureok");
 syl = syl.replace(/johda/g, "jota");
 syl = syl.replace(/jigyeo/g, "jikyeo");
+syl = syl.replace(/janha/g, "jana");
+syl = syl.replace(/jotim/g, "joshim"); //joshimseure
+syl = syl.replace(/molra/g, "molla");
 syl = syl.replace(/manhi/g, "mani");
-syl = syl.replace(/ssahyeo/g, "ssayeo");
-syl = syl.replace(/daheumyeon/g, "daeumyeon");
 syl = syl.replace(/myeoti/g, "myeoshi");
-  
+syl = syl.replace(/meosji/g, "meotji");
+syl = syl.replace(/nohji/g, "nochi");
+syl = syl.replace(/nohko/g, "noko");	
+syl = syl.replace(/pisjul/g, "pitjul");
+syl = syl.replace(/ssahyeo/g, "ssayeo");
+syl = syl.replace(/yetigye/g, "uishige");
+syl = syl.replace(/usneun/g, "unneun");
+syl = syl.replace(/wakkbich/g, "wangbit");
+
 
 //english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
