@@ -7803,7 +7803,6 @@ if (find !== null) {
 syl = syl.replace(/eopsda/g, "eopta");
 syl = syl.replace(/eopsja/g, "eopja");
 syl = syl.replace(/eopsji/g, "eopji");
-	
 syl = syl.replace(/eopsi/g, "eopshi");
 syl = syl.replace(/ilheo/g, "ireo");
 syl = syl.replace(/eopsn/g, "eomn");
@@ -7814,6 +7813,7 @@ syl = syl.replace(/molra/g, "molla");
 syl = syl.replace(/wakkbich/g, "wangbit");
 syl = syl.replace(/pisjul/g, "pitjul");
 syl = syl.replace(/dalrin/g, "dallin");
+syl = syl.replace(/deuti/g, "deushi");
 syl = syl.replace(/anha/g, "ana");
 syl = syl.replace(/geureohk/g, "geureok");
 syl = syl.replace(/bitn/g, "binn");
