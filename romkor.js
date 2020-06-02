@@ -1561,7 +1561,7 @@ syl = syl.replace(/읽/g, "ilk");
 syl = syl.replace(/읾/g, "ilm");
 syl = syl.replace(/잃/g, "ilh");
 syl = syl.replace(/임/g, "im");
-syl = syl.replace(/입/g, "ip");
+syl = syl.replace(/입/g, "ib");
 syl = syl.replace(/잇/g, "is");
 syl = syl.replace(/있/g, "iss");
 syl = syl.replace(/잉/g, "ing");
@@ -7836,6 +7836,33 @@ syl = syl.replace(/yetigye/g, "uishige");
 syl = syl.replace(/usneun/g, "unneun");
 syl = syl.replace(/wakkbich/g, "wangbit");
 
+syl = syl.replace(/geojis/g, "geojit");
+syl = syl.replace(/mudtigeona/g, "mutchigeona");
+syl = syl.replace(/deonjyeojyeossgo/g, "deonjyeojyeotgo");
+syl = syl.replace(/dahji/g, "daji");
+syl = syl.replace(/motae/g, "mothae");
+syl = syl.replace(/sshipeo/g, "sshibeo");
+syl = syl.replace(/heundeureobwatcha/g, "heundeureobwatja");
+syl = syl.replace(/manjogae/g, "manjoghae");
+syl = syl.replace(/ttarajabgieneun/g, "ttarajapgieneun");
+syl = syl.replace(/kkamjjagamyeon/g, "kkamjjakhamyeon");
+syl = syl.replace(/gajyeowassgo/g, "gajyeowatgo");
+syl = syl.replace(/oechyeo/g, "wechyeo");
+syl = syl.replace(/gyesokdoel/g, "gyesokdwel");
+syl = syl.replace(/daetinhal/g, "daeshinhal");
+syl = syl.replace(/ppeonan/g, "ppeonhan");
+
+syl = syl.replace(/hoheupeul/g, "hoheubeul");
+syl = syl.replace(/eopsdeon/g, "eopdeon");
+syl = syl.replace(/hansunganye/g, "wangbit");
+syl = syl.replace(/nohchiji/g, "wangbit");
+syl = syl.replace(/challanan/g, "wangbit");
+syl = syl.replace(/ipe/g, "ibe");
+syl = syl.replace(/geumanalge/g, "geumanhalge");
+syl = syl.replace(/midni/g, "minni");
+
+	
+
 
 //english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
@@ -7864,6 +7891,11 @@ syl = syl.replace(/alleady/g, "already");
 syl = syl.replace(/beriever/g, "believer");
 syl = syl.replace(/atmotphere/g, "atmosphere");
 syl = syl.replace(/famiriar/g, "familiar");
+syl = syl.replace(/sumneme/g, "supreme");
+syl = syl.replace(/noting/g, "nothing");
+syl = syl.replace(/mage/g, "make");
+syl = syl.replace(/withh/g, "with");
+
 	
 
 document.romanization.rom.value=syl;
