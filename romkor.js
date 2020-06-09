@@ -7734,9 +7734,7 @@ syl = syl.replace(/nati/g, "nachi");
 syl = syl.replace(/mati/g, "machi");
 syl = syl.replace(/hati/g, "hachi");
 syl = syl.replace(/rati/g, "rachi");
-//syl = syl.replace(/dati/g, "dachi"); somewho messes up dashi 다시 
 
-//syl = syl.replace(/gata/g, "gacha"); there's a work Gata
 syl = syl.replace(/bata/g, "bacha");
 syl = syl.replace(/nata/g, "nacha");
 syl = syl.replace(/mata/g, "macha");
