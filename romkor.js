@@ -1646,13 +1646,13 @@ syl = syl.replace(/좡/g, "jwang");
 syl = syl.replace(/좨/g, "jwae");
 syl = syl.replace(/좼/g, "jwaess");
 syl = syl.replace(/좽/g, "jwaeng");
-syl = syl.replace(/죄/g, "joe");
-syl = syl.replace(/죈/g, "joen");
-syl = syl.replace(/죌/g, "joel");
-syl = syl.replace(/죔/g, "joem");
-syl = syl.replace(/죕/g, "joep");
-syl = syl.replace(/죗/g, "joes");
-syl = syl.replace(/죙/g, "joeng");
+syl = syl.replace(/죄/g, "jwe"); 
+syl = syl.replace(/죈/g, "jwen");
+syl = syl.replace(/죌/g, "jwel");
+syl = syl.replace(/죔/g, "jwem");
+syl = syl.replace(/죕/g, "jwep");
+syl = syl.replace(/죗/g, "jwes");
+syl = syl.replace(/죙/g, "jweng");
 syl = syl.replace(/죠/g, "jyo");
 syl = syl.replace(/죡/g, "jyok");
 syl = syl.replace(/죤/g, "jyon");
@@ -7734,7 +7734,7 @@ syl = syl.replace(/nati/g, "nachi");
 syl = syl.replace(/mati/g, "machi");
 syl = syl.replace(/hati/g, "hachi");
 syl = syl.replace(/rati/g, "rachi");
-syl = syl.replace(/dati/g, "dachi");
+//syl = syl.replace(/dati/g, "dachi"); somewho messes up dashi 다시 
 
 //syl = syl.replace(/gata/g, "gacha"); there's a work Gata
 syl = syl.replace(/bata/g, "bacha");
@@ -7860,6 +7860,17 @@ syl = syl.replace(/challanan/g, "challanhan");
 syl = syl.replace(/ipe/g, "ibe");
 syl = syl.replace(/geumanalge/g, "geumanhalge");
 syl = syl.replace(/midni/g, "minni");
+syl = syl.replace(/gibge/g, "gipge");
+ 
+syl = syl.replace(/isseossgie/g, "isseotgie");
+syl = syl.replace(/anhgoseo/g, "angoseo");
+syl = syl.replace(/jogeupaetteon/g, "jogeuphaetteon");
+syl = syl.replace(/bitwojulgeyo/g, "bichwojulgeyo");
+syl = syl.replace(/doeeoseo/g, "dweeoseo");
+syl = syl.replace(/doeeo/g, "dweeo");
+syl = syl.replace(/dahneun/g, "daneun");
+syl = syl.replace(/gibge/g, "gipge");
+syl = syl.replace(/sunoha/g, "sunoa");
 
 	
 
