@@ -4168,7 +4168,7 @@ syl = syl.replace(/dapn/g, "damn");
 syl = syl.replace(/dapr/g, "damn");
 syl = syl.replace(/dapm/g, "damm");
 
-syl = syl.replace(/dash/g, "dat");
+//syl = syl.replace(/dash/g, "dat"); messes with Dashi
 syl = syl.replace(/dasg/g, "datg");
 syl = syl.replace(/dasn/g, "datn");
 syl = syl.replace(/dasd/g, "datt");
