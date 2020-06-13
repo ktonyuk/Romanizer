@@ -1862,7 +1862,7 @@ syl = syl.replace(/춤/g, "chum");
 syl = syl.replace(/춥/g, "chub");
 syl = syl.replace(/춧/g, "chus");
 syl = syl.replace(/충/g, "chung");
-syl = syl.replace(/춰/g, "chwo");
+syl = syl.replace(/춰/g, "chweo");
 syl = syl.replace(/췄/g, "chwoss");
 syl = syl.replace(/췌/g, "chwe");
 syl = syl.replace(/췐/g, "chwen");
@@ -7874,6 +7874,12 @@ syl = syl.replace(/mattahkekkeum/g, "mattakekkeum");
 syl = syl.replace(/yaksogaet/g, "yaksokhaet");
 syl = syl.replace(/shibeo/g, "shipeo");
 syl = syl.replace(/sunoha/g, "sunoa");
+syl = syl.replace(/johahae/g, "joahae");
+syl = syl.replace(/seugini/g, "seukini");
+syl = syl.replace(/nanmanage/g, "nanmanhage");
+syl = syl.replace(/banbanamyeon/g, "banbanhamyeon");
+
+
 
 
 //english word corrections that don't interfer with korean words
@@ -7907,6 +7913,7 @@ syl = syl.replace(/sumneme/g, "supreme");
 syl = syl.replace(/noting/g, "nothing");
 syl = syl.replace(/mage/g, "make");
 syl = syl.replace(/withh/g, "with");
+syl = syl.replace(/someting/g, "something");
 
 	
 
