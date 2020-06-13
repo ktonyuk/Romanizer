@@ -7791,6 +7791,14 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/bich/g, "bit"));
 	}
 }
+
+var find = syl.match(/baes[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/baes/g, "baet"));
+	}
+}
 	
 var find = syl.match(/[^aeiouy]wit/g);
 if (find !== null) {
