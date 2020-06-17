@@ -383,6 +383,7 @@ syl = syl.replace(/뇟/g, "nwes");
 syl = syl.replace(/뇨/g, "nyo");
 syl = syl.replace(/뇩/g, "nyok");
 syl = syl.replace(/뇬/g, "nyon");
+syl = syl.replace(/뇸/g, "nyom");
 syl = syl.replace(/뇰/g, "nyol");
 syl = syl.replace(/뇹/g, "nyop");
 syl = syl.replace(/뇻/g, "nyos");
@@ -7886,6 +7887,12 @@ syl = syl.replace(/johahae/g, "joahae");
 syl = syl.replace(/seugini/g, "seukini");
 syl = syl.replace(/nanmanage/g, "nanmanhage");
 syl = syl.replace(/banbanamyeon/g, "banbanhamyeon");
+
+syl = syl.replace(/haengbogage/g, "haengbokage");
+syl = syl.replace(/uulhae/g, "uurhae");
+syl = syl.replace(/bamnaj/g, "bamnat");
+syl = syl.replace(/myeoch/g, "myeot");
+syl = syl.replace(/waeteo/g, "waesseo");
 
 
 
