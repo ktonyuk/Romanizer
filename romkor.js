@@ -7894,6 +7894,10 @@ syl = syl.replace(/bamnaj/g, "bamnat");
 syl = syl.replace(/myeoch/g, "myeot");
 syl = syl.replace(/waeteo/g, "waesseo");
 
+syl = syl.replace(/yemun/g, "uimun");
+syl = syl.replace(/kkochgwa/g, "kkotgwa");
+syl = syl.replace(/ttatteutage/g, "ttatteuthage");
+
 
 
 
