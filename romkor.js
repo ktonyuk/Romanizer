@@ -7898,6 +7898,18 @@ syl = syl.replace(/yemun/g, "uimun");
 syl = syl.replace(/kkochgwa/g, "kkotgwa");
 syl = syl.replace(/ttatteutage/g, "ttatteuthage");
 
+syl = syl.replace(/usji/g, "utji");
+syl = syl.replace(/usgiji/g, "utkiji"); 
+syl = syl.replace(/gieokae/g, "gieokhae");
+syl = syl.replace(/chagabge/g, "chagapge");
+syl = syl.replace(/gabgapae/g, "gabgaphae");
+syl = syl.replace(/jabji/g, "japji");
+syl = syl.replace(/eotteogae/g, "eotteokhae");
+syl = syl.replace(/butin/g, "bushin");
+syl = syl.replace(/himkkeos/g, "himkkeot");
+syl = syl.replace(/jjarish/g, "jjarith");
+syl = syl.replace(/urimanye/g, "urimane");
+
 
 
 
