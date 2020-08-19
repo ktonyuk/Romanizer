@@ -5089,7 +5089,7 @@ syl = syl.replace(/japn/g, "jamn");
 syl = syl.replace(/japr/g, "jamn");
 syl = syl.replace(/japm/g, "jamm");
 
-syl = syl.replace(/jash/g, "jat");
+//syl = syl.replace(/jash/g, "jat");
 syl = syl.replace(/jasg/g, "jatg");
 syl = syl.replace(/jasn/g, "jatn");
 syl = syl.replace(/jasd/g, "jatt");
