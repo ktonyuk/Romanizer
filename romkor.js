@@ -7927,8 +7927,26 @@ syl = syl.replace(/shilheun/g, "shireun");
 syl = syl.replace(/shibeun/g, "shipeun");
 syl = syl.replace(/gatjanheun/g, "gatjaneun");
 
-   
-jatin 
+syl = syl.replace(/haengbogago/g, "haengbokhago");
+syl = syl.replace(/haengbogada/g, "haengbokhada");
+syl = syl.replace(/saenggagan/g, "saenggakhan");
+syl = syl.replace(/saenggagae/g, "saenggakhae");
+syl = syl.replace(/sogye/g, "sogye");
+syl = syl.replace(/beonye/g, "beone");
+syl = syl.replace(/bitweo/g, "bichweo");
+syl = syl.replace(/marachon/g, "maraton");
+syl = syl.replace(/anhgo/g, "ango");
+syl = syl.replace(/geupage/g, "geuphage");
+syl = syl.replace(/majch/g, "match");
+ syl = syl.replace(/ijjianhgo/g, "ijjiango");
+ syl = syl.replace(/heurishan/g, "heurithan");
+ syl = syl.replace(/magmagae/g, "makmakhae");
+ syl = syl.replace(/dapdapae/g, "dapdaphae");
+ syl = syl.replace(/gyesogaeseo/g, "gyesokhaeseo");
+ syl = syl.replace(/balkkeuti/g, "balkkeuchi");
+ syl = syl.replace(/essgo/g, "etgo");
+
+ 
 
 //english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
@@ -7961,6 +7979,9 @@ syl = syl.replace(/sumneme/g, "supreme");
 syl = syl.replace(/noting/g, "nothing");
 syl = syl.replace(/mage/g, "make");
 syl = syl.replace(/withh/g, "with");
+syl = syl.replace(/someting/g, "something");
+syl = syl.replace(/Destinachion/g, "Destination");
+syl = syl.replace(/Negachive/g, "Negative");
 syl = syl.replace(/someting/g, "something");
 
 	
