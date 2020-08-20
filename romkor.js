@@ -332,7 +332,7 @@ syl = syl.replace(/넋/g, "neoks");
 syl = syl.replace(/넌/g, "neon");
 syl = syl.replace(/널/g, "neol");
 syl = syl.replace(/넒/g, "neolm");
-syl = syl.replace(/넓/g, "neolp");
+syl = syl.replace(/넓/g, "neolb");
 syl = syl.replace(/넘/g, "neom");
 syl = syl.replace(/넙/g, "neop");
 syl = syl.replace(/넛/g, "neos");
@@ -444,7 +444,7 @@ syl = syl.replace(/닫/g, "dad");
 syl = syl.replace(/달/g, "dal");
 syl = syl.replace(/닭/g, "dalk");
 syl = syl.replace(/닮/g, "dalm");
-syl = syl.replace(/닯/g, "dalp");
+syl = syl.replace(/닯/g, "dalb");
 syl = syl.replace(/닳/g, "dalh");
 syl = syl.replace(/담/g, "dam");
 syl = syl.replace(/답/g, "dap");
@@ -471,7 +471,7 @@ syl = syl.replace(/던/g, "deon");
 syl = syl.replace(/덛/g, "deod");
 syl = syl.replace(/덜/g, "deol");
 syl = syl.replace(/덞/g, "deolm");
-syl = syl.replace(/덟/g, "deolp");
+syl = syl.replace(/덟/g, "deolb");
 syl = syl.replace(/덤/g, "deom");
 syl = syl.replace(/덥/g, "deop");
 syl = syl.replace(/덧/g, "deos");
@@ -588,7 +588,7 @@ syl = syl.replace(/떡/g, "tteok");
 syl = syl.replace(/떤/g, "tteon");
 syl = syl.replace(/떨/g, "tteol");
 syl = syl.replace(/떪/g, "tteolm");
-syl = syl.replace(/떫/g, "tteolp");
+syl = syl.replace(/떫/g, "tteolb");
 syl = syl.replace(/떰/g, "tteom");
 syl = syl.replace(/떱/g, "tteop");
 syl = syl.replace(/떳/g, "tteos");
@@ -1537,7 +1537,7 @@ syl = syl.replace(/으/g, "eu");
 syl = syl.replace(/윽/g, "euk");
 syl = syl.replace(/은/g, "eun");
 syl = syl.replace(/을/g, "eul");
-syl = syl.replace(/읊/g, "eulp");
+syl = syl.replace(/읊/g, "eulb");
 syl = syl.replace(/음/g, "eum");
 syl = syl.replace(/읍/g, "eup");
 syl = syl.replace(/읏/g, "eus");
@@ -7400,6 +7400,7 @@ syl = syl.replace(/haesshi/g, "haetshi");
 syl = syl.replace(/haessn/g, "haenn");
 syl = syl.replace(/haessd/g, "haett");
 syl = syl.replace(/haessj/g, "haetj");
+syl = syl.replace(/haessk/g, "haetg");
 
 syl = syl.replace(/haengr/g, "haengn");
 
@@ -7910,7 +7911,17 @@ syl = syl.replace(/himkkeos/g, "himkkeot");
 syl = syl.replace(/jjarish/g, "jjarith");
 syl = syl.replace(/urimanye/g, "urimane");
 
+syl = syl.replace(/kkulhji/g, "kkulchi");
+syl = syl.replace(/shillues/g, "shilluet");
+syl = syl.replace(/midji/g, "mitji");
+syl = syl.replace(/dulmanye/g, "dulmane");
+syl = syl.replace(/saenggaga/g, "saenggakha");
+syl = syl.replace(/urimanye/g, "urimane");
+syl = syl.replace(/urimanye/g, "urimane");
+syl = syl.replace(/urimanye/g, "urimane");
+syl = syl.replace(/urimanye/g, "urimane");
 
+  
 
 
 //english word corrections that don't interfer with korean words
