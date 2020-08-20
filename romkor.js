@@ -7916,13 +7916,19 @@ syl = syl.replace(/shillues/g, "shilluet");
 syl = syl.replace(/midji/g, "mitji");
 syl = syl.replace(/dulmanye/g, "dulmane");
 syl = syl.replace(/saenggaga/g, "saenggakha");
-syl = syl.replace(/urimanye/g, "urimane");
-syl = syl.replace(/urimanye/g, "urimane");
-syl = syl.replace(/urimanye/g, "urimane");
-syl = syl.replace(/urimanye/g, "urimane");
+syl = syl.replace(/mamsogye/g, "mamsoge");
+syl = syl.replace(/keuti/g, "keuchi");
+syl = syl.replace(/anye/g, "ane");
+syl = syl.replace(/manhdago/g, "mandago");
+syl = syl.replace(/gatjanheun/g, "gatjaneun");
+syl = syl.replace(/jatin/g, "jashin");
+syl = syl.replace(/ttatteutan/g, "ttatteuthan");
+syl = syl.replace(/shilheun/g, "shireun");
+syl = syl.replace(/shibeun/g, "shipeun");
+syl = syl.replace(/gatjanheun/g, "gatjaneun");
 
-  
-
+   
+jatin 
 
 //english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
