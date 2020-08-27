@@ -7917,6 +7917,7 @@ syl = syl.replace(/midji/g, "mitji");
 syl = syl.replace(/dulmanye/g, "dulmane");
 syl = syl.replace(/saenggaga/g, "saenggakha");
 syl = syl.replace(/mamsogye/g, "mamsoge");
+syl = syl.replace(/beilsogye/g, "beilsoge");
 syl = syl.replace(/keuti/g, "keuchi");
 syl = syl.replace(/anye/g, "ane");
 syl = syl.replace(/manhdago/g, "mandago");
@@ -7945,6 +7946,9 @@ syl = syl.replace(/majch/g, "match");
  syl = syl.replace(/gyesogaeseo/g, "gyesokhaeseo");
  syl = syl.replace(/balkkeuti/g, "balkkeuchi");
  syl = syl.replace(/essgo/g, "etgo");
+ syl = syl.replace(/moseupi/g, "moseubi");
+ syl = syl.replace(/moseupeul/g, "moseubeul");
+ syl = syl.replace(/moseup/g, "moseub");
 
  
 
