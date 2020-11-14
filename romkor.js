@@ -7995,9 +7995,9 @@ syl = syl.replace(/majch/g, "match");
  syl = syl.replace(/gwaenchanhda/g, "gwaenchanda");
 syl = syl.replace(/anhneun/g, "anneun");
 syl = syl.replace(/chatnayo/g, "channayo");
-syl = syl.replace(/anhge/g, "ange");
+syl = syl.replace(/anhge/g, "anke");
 syl = syl.replace(/changbaegan/g, "changbaekhan");
-syl = syl.replace(/jijianhge/g, "jijiange");
+syl = syl.replace(/jijianhge/g, "jijianke");
 syl = syl.replace(/gwithgae/g, "gwitgae");
 syl = syl.replace(/eotteohkejom/g, "eotteogejom");
 syl = syl.replace(/nunbutige/g, "nunbushige");
@@ -8174,8 +8174,48 @@ syl = syl.replace(/hanatshik/g, "hanasshik");
 syl = syl.replace(/alhdeon/g, "aldeon");
 syl = syl.replace(/myeotireul/g, "myoechireul");
 syl = syl.replace(/kkwakkiya/g, "kkwangiya");
-	
-	
+syl = syl.replace(/eosaegajiman/g, "eosaekhajiman");
+syl = syl.replace(/ijhyeo/g, "tathae");
+syl = syl.replace(/tashae/g, "ireun");
+syl = syl.replace(/usgo/g, "utgo");
+syl = syl.replace(/geojitirago/g, "geojishirago");
+syl = syl.replace(/saegeosseo/g, "saegyeosseo");
+syl = syl.replace(/saegeo/g, "saegyeo");
+syl = syl.replace(/cheos/g, "cheot");
+syl = syl.replace(/kkojhyeosseul/g, "kkochyeosseul");
+syl = syl.replace(/chaempieonye/g, "chaempieone");
+syl = syl.replace(/geotneun/g, "geonneun");
+syl = syl.replace(/sugapijana/g, "sugabijana");
+syl = syl.replace(/anhjana/g, "anjana");
+syl = syl.replace(/shilhjana/g, "shiljana");
+syl = syl.replace(/dwaeteuni/g, "dwaesseuni");
+syl = syl.replace(/jeopeodullae/g, "jeobeodullae");
+syl = syl.replace(/shijagaji/g, "shijakhaji");
+syl = syl.replace(/balkaol/g, "balgaol");
+syl = syl.replace(/dureoweohajima/g, "duryeoweohajima");
+syl = syl.replace(/momjite/g, "momjise");
+syl = syl.replace(/kkojhini/g, "kkochini");
+syl = syl.replace(/hagotipeun/g, "hagoshipeun");
+syl = syl.replace(/chwegoye/g, "chwegoe");
+syl = syl.replace(/gwishgae/g, "gwitgae");
+syl = syl.replace(/ppaesji/g, "ppaetji");
+syl = syl.replace(/sarangye/g, "sarange");
+syl = syl.replace(/seodbulleo/g, "seotbulleo");
+syl = syl.replace(/kosnorae/g, "konnorae");
+syl = syl.replace(/shimne/g, "shipne");
+syl = syl.replace(/motajiman/g, "mothajiman");
+syl = syl.replace(/anhgiro/g, "angiro");
+syl = syl.replace(/cheogae/g, "cheokhae");
+syl = syl.replace(/salmye/g, "salme");
+syl = syl.replace(/yemuin/g, "euimuin");
+syl = syl.replace(/chakkagal/g, "chakkakhal");
+syl = syl.replace(/saekkkarye/g, "saekkkare");
+syl = syl.replace(/geuradeisyeonye/g, "geuradeisheone");
+syl = syl.replace(/boras/g, "borat");
+syl = syl.replace(/bichye/g, "biche");
+syl = syl.replace(/chaweonye/g, "chaweone");
+syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
+
 //english word corrections that don't interfer with korean words
 syl = syl.replace(/lonery/g, "lonely");
 syl = syl.replace(/coror/g, "color");
@@ -8226,6 +8266,10 @@ syl = syl.replace(/biches/g, "bitches");
 syl = syl.replace(/hitten/g, "hidden");
 syl = syl.replace(/maging/g, "making");
 syl = syl.replace(/garaxy/g, "galaxy");
+syl = syl.replace(/wishhh/g, "with");
+syl = syl.replace(/Travering/g, "Traveling");
+syl = syl.replace(/Shagin/g, "Shakin");
+syl = syl.replace(/wishhdrawls/g, "withdrawls");
  
 	
 
