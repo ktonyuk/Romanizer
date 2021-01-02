@@ -7125,6 +7125,21 @@ syl = syl.replace(/otossn/g, "oshonn");
 //있는 있게 
 syl = syl.replace(/issg/g, "itg");
 syl = syl.replace(/issn/g, "inn");
+syl = syl.replace(/hassg/g, "haetg");
+
+
+//없
+syl = syl.replace(/eopsda/g, "eopta");
+syl = syl.replace(/eopsd/g, "eopd");
+syl = syl.replace(/eopsja/g, "eopja");
+syl = syl.replace(/eopsji/g, "eopji");
+syl = syl.replace(/eopsi/g, "eopshi");
+syl = syl.replace(/eopsj/g, "eopj"); //없죠
+syl = syl.replace(/eopsn/g, "eomn");
+ syl = syl.replace(/eopsgie/g, "eopgie");
+  syl = syl.replace(/eopsdorok/g, "eopdorok");
+ syl = syl.replace(/eopsge/g, "eopge");
+ 
 
 //꽃다운 
 syl = syl.replace(/ochda/g, "otda");
@@ -7169,7 +7184,6 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/baes/g, "baet"));
 	}
 }
-	
 
 
 
@@ -8160,6 +8174,11 @@ syl = syl.replace(/elry/g, "elly");
 
 
 
+
+//individual words
+
+
+
 //NEW after update
 syl = syl.replace(/mattaheun/g, "mattaeun"); //맞닿은 
 syl = syl.replace(/nachseon/g, "nasseon"); //낯선 
@@ -8167,19 +8186,8 @@ syl = syl.replace(/gileul/g, "gireul"); //길을
 syl = syl.replace(/weropgo/g, "werobgo"); //외롭고 
 syl = syl.replace(/mandeuleo/g, "mandeureo"); //만들어 
 syl = syl.replace(/dureoul/g, "duryeoul"); //두려울 
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
-syl = syl.replace(/wanbyeokae/g, "wanbyeokhae");
 
-	
-	//english word corrections that don't interfer with korean words
+//english word corrections that don't interfer with korean words
 
  
 	
