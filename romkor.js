@@ -7170,13 +7170,6 @@ if (find !== null) {
 	}
 }
 	
-var find = syl.match(/[^aeiouy]wit/g);
-if (find !== null) {
-	console.log(find);
-	for (i = 0; i < find.length; i++) {
-   		syl = syl.replace(find[i], find[i].replace(/wit/g, "with"));
-	}
-}
 
 
 
