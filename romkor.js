@@ -7143,6 +7143,9 @@ syl = syl.replace(/eopsn/g, "eomn");
 //꽃다운 
 syl = syl.replace(/ochda/g, "otda");
 
+//Si
+syl = syl.replace(/si/g, "shi");
+
 var find = syl.match(/mos[^aeiouy]/g);
 if (find !== null) {
 	console.log(find);
@@ -7151,7 +7154,7 @@ if (find !== null) {
 	}
 }
 
-var find = syl.match(/myeo[^aeiouy]/g);
+var find = syl.match(/myeoch[^aeiouy]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
@@ -7159,6 +7162,13 @@ if (find !== null) {
 	}
 }
 
+var find = syl.match(/myeos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/myeos/g, "myeot"));
+	}
+}
 //got mot sot geot heot bit mat etc
 var find = syl.match(/gos[^aeiouy]/g);
 if (find !== null) {
@@ -8191,7 +8201,7 @@ syl = syl.replace(/mattaheun/g, "mattaeun"); //맞닿은
 syl = syl.replace(/nachseon/g, "nasseon"); //낯선 
 syl = syl.replace(/gileul/g, "gireul"); //길을 
 syl = syl.replace(/weropgo/g, "werobgo"); //외롭고 
-syl = syl.replace(/mandeuleo/g, "mandeureo"); //만들어 
+syl = syl.replace(/deuleo/g, "deureo"); //들어 
 syl = syl.replace(/dureoul/g, "duryeoul"); //두려울 
 syl = syl.replace(/mileo/g, "mireo"); //밀어
 syl = syl.replace(/anye/g, "ane"); //안의
@@ -8203,10 +8213,46 @@ syl = syl.replace(/ijhyeojin/g, "ichyeojin"); //잊혀진
 syl = syl.replace(/yeshim/g, "uishim"); //의심 
 syl = syl.replace(/yeshik/g, "uishik"); //의식
 syl = syl.replace(/cheotnun/g, "cheonnun"); //첫눈
+syl = syl.replace(/kkotnoli/g, "kkonnori"); //꽃놀이
+
+
+
+//  -의  
+syl = syl.replace(/dangshinye/g, "dangshine"); //당신의 
+syl = syl.replace(/urideurye/g, "urideure"); //우리들의 
+syl = syl.replace(/yetigye/g, "uishige"); //의식의 
+syl = syl.replace(/hansunganye/g, "hansungane"); //한순간의 not 한순간에 
+syl = syl.replace(/urimanye/g, "urimane"); //우리만의 
+syl = syl.replace(/beilsogye/g, "beilsoge"); //베일속의 
+syl = syl.replace(/mamsogye/g, "mamsoge"); //맘속의  not 맘속에 
+syl = syl.replace(/dulmanye/g, "dulmane"); //둘만의 
+syl = syl.replace(/beonye/g, "beone"); //번의 
+syl = syl.replace(/mijiye/g, "mijie"); //미지의 
+syl = syl.replace(/girye/g, "gire"); //길의 
+syl = syl.replace(/meorissogye/g, "meorissoge"); //머릿속의  not 머릿속에 
+syl = syl.replace(/isangye/g, "isange"); //이상의
+syl = syl.replace(/sogye/g, "soge"); //속의
+syl = syl.replace(/jigeumye/g, "jigeume"); //지금의
+syl = syl.replace(/saegye/g, "saege"); //색의
+syl = syl.replace(/haneurye/g, "haneure"); //하늘의 not 하늘에 
+syl = syl.replace(/onmomye/g, "onmome"); //온몸의
+syl = syl.replace(/shimyeonye/g, "shimyeone"); //심연의 
+syl = syl.replace(/naepiye/g, "naepie"); //내피의 
+syl = syl.replace(/shiryeonye/g, "shiryeone"); //시련의 
+syl = syl.replace(/pyojeongye/g, "pyojeonge"); //표정의 
+syl = syl.replace(/bamye/g, "bame"); // 밤의 
+syl = syl.replace(/sesangye/g, "sesange"); //세상
+syl = syl.replace(/oneulbamye/g, "oneulbame");
+syl = syl.replace(/mideumye/g, "mideume"); //믿음의 
+syl = syl.replace(/dandanamye/g, "dandanhame"); //단단함의 
+syl = syl.replace(/chaempieonye/g, "chaempieone"); //챔피언의 
+syl = syl.replace(/sarangye/g, "sarange"); //사랑의 
+syl = syl.replace(/saekkkarye/g, "saekkare"); //색깔의 
+syl = syl.replace(/keottingye/g, "keotinge"); //컷팅의
+
+
 //english word corrections that don't interfer with korean words
 
- 
-	
 
 document.romanization.rom.value=syl;
 }
