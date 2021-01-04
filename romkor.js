@@ -1562,7 +1562,7 @@ syl = syl.replace(/읽/g, "ilk");
 syl = syl.replace(/읾/g, "ilm");
 syl = syl.replace(/잃/g, "ilh");
 syl = syl.replace(/임/g, "im");
-syl = syl.replace(/입/g, "ip");
+syl = syl.replace(/입/g, "ib");
 syl = syl.replace(/잇/g, "is");
 syl = syl.replace(/있/g, "iss");
 syl = syl.replace(/잉/g, "ing");
@@ -8313,22 +8313,27 @@ syl = syl.replace(/gudi/g, "guji"); //굳이
 //syl = syl.replace(/anhji/g, "anji"); //않지 ?
 syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
 syl = syl.replace(/ibmajchum/g, "immatchum"); //입맞춤 
+//syl = syl.replace(/ipe/g, "ibe"); //입에 
 syl = syl.replace(/myeothi/g, "myeoshi"); //며시 
 syl = syl.replace(/meosjin/g, "meotjin"); //멋진 
 syl = syl.replace(/pisjul/g, "pitjul"); //핏줄 
-	
 syl = syl.replace(/usneun/g, "unneun"); //웃는 
+syl = syl.replace(/usji/g, "utji"); //웃
+syl = syl.replace(/usgiji/g, "utkiji"); //웃
 syl = syl.replace(/hoheupeul/g, "hoheubeul"); //호흡을 
 syl = syl.replace(/nohchi/g, "notchi"); //놓치 
 syl = syl.replace(/challanan/g, "challanhan"); //찬란한    (because of 않 anha)
 syl = syl.replace(/geumana/g, "geumanha"); //그만할  (because of 않 anha)
+syl = syl.replace(/nanmanage/g, "nanmanhage"); //난만하게 (because of 않 anha)
+syl = syl.replace(/ttatteushage/g, "ttatteuthage"); //따뜻하게 
+syl = syl.replace(/banamyeon/g, "banhamyeon");//반하면 (because of 않 anha)
 syl = syl.replace(/midni/g, "minni"); //믿니
-
-syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
-syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
-syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
-syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
-syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
+syl = syl.replace(/bitweo/g, "bichweo"); //비춰 
+syl = syl.replace(/kkeuti/g, "kkeuchi"); //끝이 
+syl = syl.replace(/seugini/g, "seukini"); //스키니  
+syl = syl.replace(/haengbokhage/g, "haengbokage"); //행복하겠  
+syl = syl.replace(/uulhae/g, "uurhae"); //우울해 
+syl = syl.replace(/bamnaj/g, "bamnat");	//밤낮
 
 
 //  의-  
@@ -8336,7 +8341,7 @@ syl = syl.replace(/yeshim/g, "uishim"); //의심
 syl = syl.replace(/yeshik/g, "uishik"); //의식
 syl = syl.replace(/yemi/g, "euimi"); //의미 
 syl = syl.replace(/yemuin/g, "euimuin"); //의무인 
-
+syl = syl.replace(/yemun/g, "uimun"); //의문  
 
 //  -의  
 syl = syl.replace(/dangshinye/g, "dangshine"); //당신의 
@@ -8379,12 +8384,15 @@ syl = syl.replace(/chwegoye/g, "chwegoe");
 
 // where h is not pronounced
 syl = syl.replace(/anhjanha/g, "anjana"); //않잖아 
-syl = syl.replace(/janha/g, "jana"); //잖아 
-syl = syl.replace(/manheun/g, "maneun"); //많은 
+syl = syl.replace(/anhgiro/g, "angiro"); //않기로
 syl = syl.replace(/anheun/g, "aneun"); //않는
 syl = syl.replace(/anha/g, "ana"); //않아
-syl = syl.replace(/chanha/g, "chana"); //않아
 syl = syl.replace(/anheul/g, "aneul"); //않을 
+syl = syl.replace(/anhgo/g, "ango"); //않고
+syl = syl.replace(/janha/g, "jana"); //잖아 
+syl = syl.replace(/joha/g, "joa"); //좋아 
+syl = syl.replace(/manheun/g, "maneun"); //많은 
+syl = syl.replace(/chanha/g, "chana"); //않아
 syl = syl.replace(/ilheo/g, "ireo"); //잃어 
 syl = syl.replace(/reohke/g, "reoke"); //렇게 
 syl = syl.replace(/ireohke/g, "ireoke"); //이렇게 
@@ -8398,10 +8406,14 @@ syl = syl.replace(/ssahyeo/g, "ssayeo"); //쌓여
 syl = syl.replace(/daheumyeon/g, "daeumyeon"); //닿으면 
 syl = syl.replace(/daheul/g, "daeul"); //닿을 
 syl = syl.replace(/dahji/g, "daji"); //닿지  
-syl = syl.replace(/anhgiro/g, "angiro"); //않기로
 syl = syl.replace(/daheun/g, "daeun"); //닿은
+syl = syl.replace(/dahneun/g, "daneun"); //닿는 
+syl = syl.replace(/mattahkekkeum/g, "mattagekkeum"); //맞닿게끔 
 syl = syl.replace(/kkojhini/g, "kkochini"); //꽂히니
 syl = syl.replace(/shilhji/g, "shilji"); //싫지
+syl = syl.replace(/sunoha/g, "sunoa"); //수놓아 
+
+	
 	
 //english word corrections that don't interfer with korean words
 
