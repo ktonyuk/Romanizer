@@ -8246,6 +8246,23 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/nes/g, "net"));
 	}
 }
+	
+//빗
+var find = syl.match(/bis[^aeiouyn]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/bis/g, "bit"));
+	}
+}	
+//deus
+var find = syl.match(/deus[^aeiouyn]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/deus/g, "deut"));
+	}
+}
 //individual words
 
 
@@ -8276,7 +8293,14 @@ syl = syl.replace(/gwishgae/g, "gwitgae"); //귓가
 syl = syl.replace(/kkochpi/g, "kkotpi"); //꽃피
 syl = syl.replace(/hagotipeun/g, "hagoshipeun"); //하고싶은  
 syl = syl.replace(/balkaol/g, "balgaol"); //밝아올 
-
+syl = syl.replace(/daheumyeon/g, "daeumyeon"); //닿으면 
+syl = syl.replace(/bitn/g, "binn"); //빗나
+syl = syl.replace(/jigyeojul/g, "jikyeojul "); //지켜줄 
+syl = syl.replace(/dadhin/g, "dachin"); //닫힌 
+syl = syl.replace(/euleun/g, "eureun"); //들은 
+syl = syl.replace(/gudi/g, "guji"); //굳이
+//syl = syl.replace(/anhji/g, "anji"); //않지 ?
+	
 
 
 //  의-  
@@ -8330,7 +8354,10 @@ syl = syl.replace(/anhjanha/g, "anjana"); //않잖아
 syl = syl.replace(/janha/g, "jana"); //잖아 
 syl = syl.replace(/manheun/g, "maneun"); //많은 
 syl = syl.replace(/anheun/g, "aneun"); //않는
-
+syl = syl.replace(/anha/g, "ana"); //않아
+syl = syl.replace(/chanha/g, "chana"); //않아
+syl = syl.replace(/anheul/g, "aneul"); //않을 
+	
 //english word corrections that don't interfer with korean words
 
  
