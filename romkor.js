@@ -7144,7 +7144,7 @@ syl = syl.replace(/eopsn/g, "eomn");
 syl = syl.replace(/ochda/g, "otda");
 
 //Si
-syl = syl.replace(/si/g, "shi");
+//syl = syl.replace(/si/g, "shi");
 
 
 
@@ -8291,16 +8291,25 @@ syl = syl.replace(/shilhji/g, "shilji"); //싫지
 syl = syl.replace(/gadhyeo/g, "gachyeo"); //갇혀
 syl = syl.replace(/gwishgae/g, "gwitgae"); //귓가
 syl = syl.replace(/kkochpi/g, "kkotpi"); //꽃피
-syl = syl.replace(/hagotipeun/g, "hagoshipeun"); //하고싶은  
+syl = syl.replace(/hagothip/g, "hagoship"); //하고싶 
+syl = syl.replace(/bogothip/g, "bogoship"); //보고싶 
 syl = syl.replace(/balkaol/g, "balgaol"); //밝아올 
 syl = syl.replace(/daheumyeon/g, "daeumyeon"); //닿으면 
+syl = syl.replace(/daheul/g, "daeul"); //닿을 
 syl = syl.replace(/bitn/g, "binn"); //빗나
 syl = syl.replace(/jigyeojul/g, "jikyeojul "); //지켜줄 
 syl = syl.replace(/dadhin/g, "dachin"); //닫힌 
 syl = syl.replace(/euleun/g, "eureun"); //들은 
 syl = syl.replace(/gudi/g, "guji"); //굳이
 //syl = syl.replace(/anhji/g, "anji"); //않지 ?
+syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
+syl = syl.replace(/ibmajchum/g, "immatchum"); //입맞춤 
 	
+syl = syl.replace(/myeothi/g, "myeoshi"); //며시 
+	
+syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
+syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
+syl = syl.replace(/anhgireul/g, "anhkireul"); //않을 
 
 
 //  의-  
@@ -8357,6 +8366,13 @@ syl = syl.replace(/anheun/g, "aneun"); //않는
 syl = syl.replace(/anha/g, "ana"); //않아
 syl = syl.replace(/chanha/g, "chana"); //않아
 syl = syl.replace(/anheul/g, "aneul"); //않을 
+syl = syl.replace(/ilheo/g, "ireo"); //잃어 
+syl = syl.replace(/reohke/g, "reoke"); //렇게 
+syl = syl.replace(/ireohke/g, "ireoke"); //이렇게 
+syl = syl.replace(/geureohke/g, "geureoke"); //그렇게 
+syl = syl.replace(/johda/g, "jota"); //좋다 
+syl = syl.replace(/manhi/g, "mani"); //많이 
+
 	
 //english word corrections that don't interfer with korean words
 
