@@ -8279,7 +8279,7 @@ if (find !== null) {
 }
 	
 	
-//
+//의
 var find = syl.match(/[^aeiouy]ui[^aeiouygbdnwmkshp]/g);
 if (find !== null) {
 	console.log(find);
@@ -8287,7 +8287,15 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/ui/g, "e"));
 	}
 }
-	
+
+//
+var find = syl.match(/[^aeiouygbdnwmkshp]anha[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/anha/g, "ana"));
+	}
+}
 //individual words
 
 
@@ -8347,7 +8355,7 @@ syl = syl.replace(/uulhae/g, "uurhae"); //우울해
 syl = syl.replace(/bamnaj/g, "bamnat");	//밤낮
 syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
 
-syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
+syl = syl.replace(/mianada/g, "mianhada"); //미안하다 
 syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
 syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
  
@@ -8407,7 +8415,7 @@ syl = syl.replace(/bimirye/g, "bimire"); //비밀의
 syl = syl.replace(/anhjanha/g, "anjana"); //않잖아 
 syl = syl.replace(/anhgiro/g, "angiro"); //않기로
 syl = syl.replace(/anheun/g, "aneun"); //않는
-syl = syl.replace(/anha/g, "ana"); //않아
+//syl = syl.replace(/anha/g, "ana"); //않아
 syl = syl.replace(/anheul/g, "aneul"); //않을 
 syl = syl.replace(/anhgo/g, "ango"); //않고
 syl = syl.replace(/janha/g, "jana"); //잖아 
