@@ -8280,7 +8280,7 @@ if (find !== null) {
 	
 	
 //
-var find = syl.match(/[^aeiouy]ui/g);
+var find = syl.match(/[^aeiouy]ui[^aeiouygbdnwmkshp]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
