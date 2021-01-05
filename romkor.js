@@ -8284,7 +8284,7 @@ var find = syl.match(/[^aeiouy]ui[^aeiouygbdnwmkshp]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
-   		syl = syl.replace(find[i], find[i].replace(/ui/g, "ye"));
+   		syl = syl.replace(find[i], find[i].replace(/ui/g, "e"));
 	}
 }
 	
