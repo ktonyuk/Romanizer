@@ -8270,13 +8270,24 @@ if (find !== null) {
 	}
 }	
 //deus 듯
-var find = syl.match(/deus[^aeiouyn]/g);
+var find = syl.match(/deus[^aeiouy]/g);
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
    		syl = syl.replace(find[i], find[i].replace(/deus/g, "deut"));
 	}
 }
+	
+	
+//
+var find = syl.match(/[^aeiouy]ui/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ui/g, "ye"));
+	}
+}
+	
 //individual words
 
 
