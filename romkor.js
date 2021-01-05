@@ -11,7 +11,7 @@ syl = syl.replace(/갈/g, "gal");
 syl = syl.replace(/갉/g, "galk"); 
 syl = syl.replace(/갊/g, "galm");
 syl = syl.replace(/감/g, "gam");
-syl = syl.replace(/갑/g, "gap");
+syl = syl.replace(/갑/g, "gab");
 syl = syl.replace(/값/g, "gaps"); 
 syl = syl.replace(/갓/g, "gas"); //gan when followed by consonant. s when followed by ng
 syl = syl.replace(/갔/g, "gass");
@@ -26,7 +26,7 @@ syl = syl.replace(/객/g, "gaek");
 syl = syl.replace(/갠/g, "gaen");
 syl = syl.replace(/갤/g, "gael");
 syl = syl.replace(/갬/g, "gaem");
-syl = syl.replace(/갭/g, "gaep");
+syl = syl.replace(/갭/g, "gaeb");
 syl = syl.replace(/갯/g, "gaes");
 syl = syl.replace(/갰/g, "gaess");
 syl = syl.replace(/갱/g, "gaeng");
@@ -58,7 +58,7 @@ syl = syl.replace(/게/g, "ge");
 syl = syl.replace(/겐/g, "gen");
 syl = syl.replace(/겔/g, "gel");
 syl = syl.replace(/겜/g, "gem");
-syl = syl.replace(/겝/g, "gep");
+syl = syl.replace(/겝/g, "geb");
 syl = syl.replace(/겟/g, "ges");
 syl = syl.replace(/겠/g, "gess");
 syl = syl.replace(/겡/g, "geng");
@@ -1548,7 +1548,7 @@ syl = syl.replace(/읔/g, "euk");
 syl = syl.replace(/읕/g, "eut");
 syl = syl.replace(/읖/g, "eup");
 syl = syl.replace(/읗/g, "euh");
-syl = syl.replace(/의/g, "ye"); //ui
+syl = syl.replace(/의/g, "ui"); //ui
 syl = syl.replace(/읜/g, "in");
 syl = syl.replace(/읠/g, "il");
 syl = syl.replace(/읨/g, "im");
@@ -3021,6 +3021,7 @@ syl = syl.replace(/duhr/g, "dur");
 //syl = syl.replace(/dith/g, "dit");
 //syl = syl.replace(/diph/g, "dip");
 //syl = syl.replace(/dichh/g, "ditj");
+//syl = syl.replace(/dism/g, "dinm"); //dismissed
 
 
 syl = syl.replace(/dikn/g, "ding");
@@ -3042,7 +3043,6 @@ syl = syl.replace(/dipm/g, "dimm");
 syl = syl.replace(/disg/g, "ditg");
 syl = syl.replace(/disn/g, "ditn");
 syl = syl.replace(/disd/g, "ditt");
-syl = syl.replace(/dism/g, "dinm");
 syl = syl.replace(/disb/g, "ditb");
 syl = syl.replace(/disshi/g, "ditshi");
 syl = syl.replace(/dissn/g, "dinn");
@@ -8055,7 +8055,7 @@ syl = syl.replace(/wuhr/g, "wur");
 
 //l followed by ng
 syl = syl.replace(/ola/g, "ora");
-syl = syl.replace(/ole/g, "ore");
+//syl = syl.replace(/ole/g, "ore"); //whole
 //syl = syl.replace(/oli/g, "ori"); //foolish
 //syl = syl.replace(/olu/g, "oru");
 syl = syl.replace(/olo/g, "oro");
@@ -8269,7 +8269,7 @@ if (find !== null) {
    		syl = syl.replace(find[i], find[i].replace(/bis/g, "bit"));
 	}
 }	
-//deus
+//deus 듯
 var find = syl.match(/deus[^aeiouyn]/g);
 if (find !== null) {
 	console.log(find);
@@ -8334,7 +8334,12 @@ syl = syl.replace(/seugini/g, "seukini"); //스키니
 syl = syl.replace(/haengbokhage/g, "haengbokage"); //행복하겠  
 syl = syl.replace(/uulhae/g, "uurhae"); //우울해 
 syl = syl.replace(/bamnaj/g, "bamnat");	//밤낮
+syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
 
+syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
+syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
+syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
+ 
 
 //  의-  
 syl = syl.replace(/yeshim/g, "uishim"); //의심 
@@ -8379,8 +8384,13 @@ syl = syl.replace(/jeongye/g, "jeonge"); //정의
 syl = syl.replace(/salmye/g, "salme"); //삶의 not 삶에
 syl = syl.replace(/bichye/g, "biche"); //빛의
 syl = syl.replace(/geuradeisyeonye/g, "geuradeisheone");
-syl = syl.replace(/chaweonye/g, "chaweone");
-syl = syl.replace(/chwegoye/g, "chwegoe");
+syl = syl.replace(/chaweonye/g, "chaweone"); //차원의 
+syl = syl.replace(/chwegoye/g, "chwegoe"); //최고의 
+syl = syl.replace(/hyeonshirye/g, "hyeonshire"); //현실의 
+syl = syl.replace(/ginjangye/g, "ginjange"); //긴장의 
+syl = syl.replace(/gieokye/g, "gieoke"); //기억의 
+syl = syl.replace(/bimirye/g, "bimire"); //비밀의
+
 
 // where h is not pronounced
 syl = syl.replace(/anhjanha/g, "anjana"); //않잖아 
@@ -8399,7 +8409,7 @@ syl = syl.replace(/ireohke/g, "ireoke"); //이렇게
 syl = syl.replace(/geureohke/g, "geureoke"); //그렇게 
 syl = syl.replace(/johda/g, "jota"); //좋다 
 syl = syl.replace(/manhi/g, "mani"); //많이 
-syl = syl.replace(/nohji/g, "noji"); //놓지 
+syl = syl.replace(/nohji/g, "nochi"); //놓지 
 syl = syl.replace(/nohko/g, "noko"); //놓
 syl = syl.replace(/nohda/g, "noda"); //놓
 syl = syl.replace(/ssahyeo/g, "ssayeo"); //쌓여 
