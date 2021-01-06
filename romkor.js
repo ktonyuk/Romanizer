@@ -8288,6 +8288,14 @@ if (find !== null) {
 	}
 }
 
+//의
+var find = syl.match(/[aeiouy]ui[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ui/g, "ye"));
+	}
+}
 //
 var find = syl.match(/[^aeiouygbdnwmkshp]anha[^aeiouygbdnwmkshp]/g);
 if (find !== null) {
