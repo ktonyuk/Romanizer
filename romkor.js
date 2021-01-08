@@ -1576,7 +1576,7 @@ syl = syl.replace(/잗/g, "jad");
 syl = syl.replace(/잘/g, "jal");
 syl = syl.replace(/잚/g, "jalm");
 syl = syl.replace(/잠/g, "jam");
-syl = syl.replace(/잡/g, "jap");
+syl = syl.replace(/잡/g, "jab");
 syl = syl.replace(/잣/g, "jas");
 syl = syl.replace(/잤/g, "jass");
 syl = syl.replace(/장/g, "jang");
@@ -8368,7 +8368,8 @@ syl = syl.replace(/bamnaj/g, "bamnat");	//밤낮
 syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
 syl = syl.replace(/meomchishan/g, "meomchithan"); //멈칫한
 syl = syl.replace(/geosiran/g, "geoshiran"); //것이란 
-	
+syl = syl.replace(/jalmosin/g, "jalmoshin"); //잘못인 
+
 //syl = syl.replace(/challanan/g, "challanhan"); //찬란한    (because of 않 anha)
 //syl = syl.replace(/geumana/g, "geumanha"); //그만할  (because of 않 anha)
 //syl = syl.replace(/nanmanage/g, "nanmanhage"); //난만하게 (because of 않 anha)
@@ -8429,18 +8430,16 @@ syl = syl.replace(/bimirye/g, "bimire"); //비밀의
 
 //  -의  
 syl = syl.replace(/neowaui/g, "neowaye"); //
-syl = syl.replace(/naui/g, "naye"); //
+syl = syl.replace(/naui/g, "naye"); //나의 
 syl = syl.replace(/neoui/g, "neoye"); //
-
-
-syl = syl.replace(/bimirye/g, "bimire"); //비밀의
-syl = syl.replace(/bimirye/g, "bimire"); //비밀의
+syl = syl.replace(/yyelhan/g, "yuilhan"); //유일한
 
 
 // where h is not pronounced
 syl = syl.replace(/anhjanha/g, "anjana"); //않잖아 
 syl = syl.replace(/anhgiro/g, "angiro"); //않기로
 syl = syl.replace(/anheun/g, "aneun"); //않는
+syl = syl.replace(/anhneun/g, "anneun"); //않는 
 //syl = syl.replace(/anha/g, "ana"); //않아
 syl = syl.replace(/anheul/g, "aneul"); //않을 
 syl = syl.replace(/anhgo/g, "ango"); //않고
