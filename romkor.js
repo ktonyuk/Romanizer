@@ -5884,6 +5884,14 @@ syl = syl.replace(/ussj/g, "utj");
 
 //같이
 //syl = syl.replace(/gati/g, "gachi"); //negative
+var find = syl.match(/[^aeiouygbdnwmkshp]gati[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/gati/g, "gachi"));
+	}
+}
+
 syl = syl.replace(/bati/g, "bachi");
 //syl = syl.replace(/nati/g, "nachi"); //destination
 //syl = syl.replace(/mati/g, "machi"); automatic
