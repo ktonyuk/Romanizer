@@ -8208,7 +8208,7 @@ if (find !== null) {
 }
 
 //랏 
-var find = syl.match(/ras[^aeiouy]/g);
+var find = syl.match(/[^t]ras[^aeiouy]/g); //trash
 if (find !== null) {
 	console.log(find);
 	for (i = 0; i < find.length; i++) {
@@ -8358,7 +8358,9 @@ syl = syl.replace(/haengbokhage/g, "haengbokage"); //행복하겠
 syl = syl.replace(/uulhae/g, "uurhae"); //우울해 
 syl = syl.replace(/bamnaj/g, "bamnat");	//밤낮
 syl = syl.replace(/dalaoreu/g, "daraoreu"); //달아오르
-
+syl = syl.replace(/meomchishan/g, "meomchithan"); //멈칫한
+syl = syl.replace(/geosiran/g, "geoshiran"); //것이란 
+	
 //syl = syl.replace(/challanan/g, "challanhan"); //찬란한    (because of 않 anha)
 //syl = syl.replace(/geumana/g, "geumanha"); //그만할  (because of 않 anha)
 //syl = syl.replace(/nanmanage/g, "nanmanhage"); //난만하게 (because of 않 anha)
@@ -8415,6 +8417,15 @@ syl = syl.replace(/chwegoye/g, "chwegoe"); //최고의
 syl = syl.replace(/hyeonshirye/g, "hyeonshire"); //현실의 
 syl = syl.replace(/ginjangye/g, "ginjange"); //긴장의 
 syl = syl.replace(/gieokye/g, "gieoke"); //기억의 
+syl = syl.replace(/bimirye/g, "bimire"); //비밀의
+
+//  -의  
+syl = syl.replace(/neowaui/g, "neowaye"); //
+syl = syl.replace(/naui/g, "naye"); //
+syl = syl.replace(/neoui/g, "neoye"); //
+
+
+syl = syl.replace(/bimirye/g, "bimire"); //비밀의
 syl = syl.replace(/bimirye/g, "bimire"); //비밀의
 
 
