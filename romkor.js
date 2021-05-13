@@ -8323,7 +8323,15 @@ if (find !== null) {
 	}
 }
 
-	
+//안의
+var find = syl.match(/[^aeiouygbdnwmkshp]anye[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/anye/g, "ane"));
+	}
+}	
+
 //individual words
 
 
@@ -8336,7 +8344,6 @@ syl = syl.replace(/weropgo/g, "werobgo"); //외롭고
 syl = syl.replace(/deuleo/g, "deureo"); //들어 
 syl = syl.replace(/dureoul/g, "duryeoul"); //두려울 
 syl = syl.replace(/mileo/g, "mireo"); //밀어
-syl = syl.replace(/anye/g, "ane"); //안의
 syl = syl.replace(/bimile/g, "bimire"); //비밀에
 syl = syl.replace(/salaga/g, "saraga"); //살아가
 syl = syl.replace(/maejhin/g, "maechin"); //맺힌
