@@ -8066,7 +8066,7 @@ syl = syl.replace(/ola/g, "ora");
 //syl = syl.replace(/ole/g, "ore"); //whole
 //syl = syl.replace(/oli/g, "ori"); //foolish
 //syl = syl.replace(/olu/g, "oru");
-syl = syl.replace(/olo/g, "oro");
+//syl = syl.replace(/olo/g, "oro");
 syl = syl.replace(/oly/g, "ory");
 syl = syl.replace(/olw/g, "orw");
 
@@ -8149,8 +8149,179 @@ syl = syl.replace(/elry/g, "elly");
 
 
  
+var find = syl.match(/mos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/mos/g, "mot"));
+	}
+}
 
+//몇
+var find = syl.match(/myeoch[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/myeoch/g, "myeot"));
+	}
+}
 
+var find = syl.match(/myeos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/myeos/g, "myeot"));
+	}
+}
+
+//meot
+var find = syl.match(/meos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/meos/g, "meot"));
+	}
+}
+	
+//got mot sot geot heot bit mat etc
+var find = syl.match(/gos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/gos/g, "got"));
+	}
+}
+
+var find = syl.match(/geos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/geos/g, "geot"));
+	}
+}
+	
+var find = syl.match(/bich[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/bich/g, "bit"));
+	}
+}
+
+var find = syl.match(/baes[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/baes/g, "baet"));
+	}
+}
+
+//랏 
+var find = syl.match(/[^t]ras[^aeiouy]/g); //trash
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ras/g, "rat"));
+	}
+}
+
+//뺏
+var find = syl.match(/ppaes[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ppaes/g, "ppaet"));
+	}
+}
+
+//짓
+var find = syl.match(/jis[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/jis/g, "jit"));
+	}
+}
+
+//갖
+var find = syl.match(/gaj[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/gaj/g, "gat"));
+	}
+}
+
+//럿
+var find = syl.match(/reos[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/reos/g, "reot"));
+	}
+}
+
+//넷
+var find = syl.match(/nes[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/nes/g, "net"));
+	}
+}
+	
+//빗
+var find = syl.match(/bis[^aeiouyn]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/bis/g, "bit"));
+	}
+}	
+//deus 듯
+var find = syl.match(/deus[^aeiouy]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/deus/g, "deut"));
+	}
+}
+	
+	
+//의
+var find = syl.match(/[^aeiouy]ui[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ui/g, "e"));
+	}
+}
+
+//의
+var find = syl.match(/[aeiouy]ui[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ui/g, "ye"));
+	}
+}
+//않아
+var find = syl.match(/[^aeiouygbdnwmkshp]anha[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/anha/g, "ana"));
+	}
+}
+
+//
+var find = syl.match(/[^aeiouygbdnwmkshp]ala[^aeiouygbdnwmkshp]/g);
+if (find !== null) {
+	console.log(find);
+	for (i = 0; i < find.length; i++) {
+   		syl = syl.replace(find[i], find[i].replace(/ala/g, "ara"));
+	}
+}
 
 	
 //individual words
@@ -8415,7 +8586,145 @@ syl = syl.replace(/nalabwa/g, "narabwa");
 syl = syl.replace(/kkeuleoango/g, "kkeureoango");
 syl = syl.replace(/Coror/g, "Color");
 syl = syl.replace(/dadhyeoinneun/g, "dachyeoinneun");
-
+syl = syl.replace(/ala/g, "ara");
+syl = syl.replace(/alachaesseo/g, "arachaesseo");
+syl = syl.replace(/alajul/g, "arajul");
+syl = syl.replace(/alasseo/g, "arasseo");
+syl = syl.replace(/alayo/g, "arayo");
+syl = syl.replace(/anhado/g, "anado");
+syl = syl.replace(/anhdeon/g, "anteon");
+syl = syl.replace(/anhkireul/g, "ankireul");
+syl = syl.replace(/anhne/g, "anne");
+syl = syl.replace(/arishan/g, "arithan");
+syl = syl.replace(/baleul/g, "bareul");
+syl = syl.replace(/balmajchweo/g, "balmatchweo");
+syl = syl.replace(/bamhaneule/g, "bamhaneure");
+syl = syl.replace(/budijhigo/g, "budichigo");
+syl = syl.replace(/bujoghae/g, "bujokhae");
+syl = syl.replace(/buleoneohneun/g, "bureoneoneun");
+syl = syl.replace(/buleul/g, "bureul");
+syl = syl.replace(/bulloliya/g, "bulloriya");
+syl = syl.replace(/butjapa/g, "butjaba");
+syl = syl.replace(/butyeotji/g, "butchyeotji (붙였지)");
+syl = syl.replace(/charyeos/g, "charyeot");
+syl = syl.replace(/dapeul/g, "dabeul");
+syl = syl.replace(/dapeun/g, "dabeun");
+syl = syl.replace(/darknets/g, "darkness");
+syl = syl.replace(/deusi/g, "deushi");
+syl = syl.replace(/dwijipeo/g, "dwijibeo");
+syl = syl.replace(/eogeutnaji/g, "eogeunnaji");
+syl = syl.replace(/eotteohke/g, "eotteoke");
+syl = syl.replace(/gatweoyo/g, "gachweoyo");
+syl = syl.replace(/gelty/g, "guilty");
+syl = syl.replace(/geopi/g, "geobi");
+syl = syl.replace(/georeotseo/g, "georeosseo");
+syl = syl.replace(/geotmeosi/g, "geonmeoshi");
+syl = syl.replace(/geouleul/g, "geoureul");
+syl = syl.replace(/geumandugothipeo/g, "geumandugoshipeo");
+syl = syl.replace(/geuraewatteusi/g, "geuraewatteushi");
+syl = syl.replace(/geureohdamyeon/g, "geureodamyeon");
+syl = syl.replace(/gileo/g, "gireo");
+syl = syl.replace(/gileotteon/g, "gireotteon");
+syl = syl.replace(/gujoae/g, "gujohae");
+syl = syl.replace(/guleotteon/g, "gureotteon");
+syl = syl.replace(/haedapeul/g, "haedabeul");
+syl = syl.replace(/haneule/g, "haneure");
+syl = syl.replace(/haruye/g, "harue");
+syl = syl.replace(/hayahko/g, "hayako");
+syl = syl.replace(/heongkeuleojin/g, "heongkeureojin");
+syl = syl.replace(/heurishan/g, "heurithan");
+syl = syl.replace(/himkkeos/g, "himkkeot");
+syl = syl.replace(/hwakinharyeogo/g, "hwaginharyeogo");
+syl = syl.replace(/hwangyaye/g, "hwangyae");
+syl = syl.replace(/ilhji/g, "ilchi");
+syl = syl.replace(/iliya/g, "iriya");
+syl = syl.replace(/ipeun/g, "ibeun");
+syl = syl.replace(/ireumgaps/g, "ireumgap");
+syl = syl.replace(/isneun/g, "inneun");
+syl = syl.replace(/japajullae/g, "jabajullae");
+syl = syl.replace(/japajweo/g, "jabajweo");
+syl = syl.replace(/japayo/g, "jabayo");
+syl = syl.replace(/jeomuleoganeun/g, "jeomureoganeun");
+syl = syl.replace(/jeopeo/g, "jeobeo");
+syl = syl.replace(/jiokiji/g, "jiogiji");
+syl = syl.replace(/jitbalpa/g, "jitbalba");
+syl = syl.replace(/johkesseo/g, "jokesseo");
+syl = syl.replace(/juleul/g, "jureul");
+syl = syl.replace(/kapes/g, "kapet");
+syl = syl.replace(/Kindnets/g, "Kindness");
+syl = syl.replace(/kkeullyeotteus/g, "kkeullyeottdeut");
+syl = syl.replace(/kkeunheojiji/g, "kkeuneojiji");
+syl = syl.replace(/kkeunheojil/g, "kkeuneojil");
+syl = syl.replace(/kkeuteul/g, "kkeucheul");
+syl = syl.replace(/kkeutnagagi/g, "kkeunnagagi");
+syl = syl.replace(/kkeutnago/g, "kkeunnago");
+syl = syl.replace(/kkulhgetji/g, "kkulketji");
+syl = syl.replace(/mabeopi/g, "mabeobi");
+syl = syl.replace(/mabithigin/g, "mabishigin");
+syl = syl.replace(/maejhyeo/g, "maechyeo");
+syl = syl.replace(/majchweo/g, "matchweo");
+syl = syl.replace(/majchweodo/g, "matchweodo");
+syl = syl.replace(/majjapeun/g, "majjabeun");
+syl = syl.replace(/mala/g, "mara");
+syl = syl.replace(/malajweo/g, "marajweo");
+syl = syl.replace(/manha/g, "mana");
+syl = syl.replace(/manhado/g, "manado");
+syl = syl.replace(/manhji/g, "manchi");
+syl = syl.replace(/manhjyo/g, "manjyo");
+syl = syl.replace(/manhne/g, "manne");
+syl = syl.replace(/matneun/g, "manneun");
+syl = syl.replace(/mattaheul/g, "mattaeul");
+syl = syl.replace(/meoreotseo/g, "meoreosseo");
+syl = syl.replace(/meosirago/g, "meoshirago");
+syl = syl.replace(/midji/g, "mitji");
+syl = syl.replace(/mogmareun/g, "mokmareun");
+syl = syl.replace(/moseupi/g, "moseubi");
+syl = syl.replace(/mothyeo/g, "moshyeo");
+syl = syl.replace(/mudji/g, "mutji");
+syl = syl.replace(/mudjima/g, "mutjima");
+syl = syl.replace(/mujigaesbit/g, "mujigaetbit");
+syl = syl.replace(/mule/g, "mure");
+syl = syl.replace(/muuimi/g, "muimi");
+syl = syl.replace(/nachseolji/g, "nasseolji");
+syl = syl.replace(/nala/g, "nara");
+syl = syl.replace(/nalaomyeon/g, "naraomyeon");
+syl = syl.replace(/neoksirado/g, "neokshirado");
+syl = syl.replace(/nohajweo/g, "noajweo");
+syl = syl.replace(/noliteoe/g, "noriteoe");
+syl = syl.replace(/olhji/g, "olchi");
+syl = syl.replace(/ollacha/g, "ollata");
+syl = syl.replace(/oreunpalen/g, "oreunparen");
+//syl = syl.replace(/osi/g, "oshi
+syl = syl.replace(/igosi/g, "igoshi");
+//syl = syl.replace(/Poro/g, "Polo");
+syl = syl.replace(/ppaeasgin/g, "ppaeatgin");
+syl = syl.replace(/puleobwa/g, "pureobwa");
+syl = syl.replace(/retpect/g, "respect");
+syl = syl.replace(/ruleul/g, "rureul");
+syl = syl.replace(/salmeoshi/g, "salmyeoshi");
+syl = syl.replace(/shage/g, "shake");
+syl = syl.replace(/shilheun/g, "shireun");
+syl = syl.replace(/shillues/g, "shilluet");
+syl = syl.replace(/sogmajeo/g, "songmajeo");
+syl = syl.replace(/songili/g, "songiri");
+//syl = syl.replace(/soro/g, "solo");
+syl = syl.replace(/ssahin/g, "ssain");
+syl = syl.replace(/sshiasi/g, "sshiashi");
+syl = syl.replace(/sshisji/g, "sshitji");
+syl = syl.replace(/sumgyeoli/g, "sumgyeori");
+syl = syl.replace(/susja/g, "sutja");
+syl = syl.replace(/susjail/g, "sutjail");
+syl = syl.replace(/teule/g, "teure");
+syl = syl.replace(/teuleojilkka/g, "teureojilkka");
+syl = syl.replace(/teuleojweo/g, "teureojweo");
+syl = syl.replace(/teuleul/g, "teureul");
+syl = syl.replace(/ttatteushaejyeoyo/g, "ttatteuthaejyeoyo");
+syl = syl.replace(/ttatteushaetteon/g, "ttatteuthaetteon");
+syl = syl.replace(/ttatteushan/g, "ttatteuthan");
+syl = syl.replace(/ttokkati/g, "ttokkachi");
+syl = syl.replace(/ttulhgoseo/g, "ttulkoseo");
+syl = syl.replace(/yyelhae/g, "yuilhae");
+	
 //english word corrections that don't interfer with korean words
 
 document.romanization.rom.value=syl;
