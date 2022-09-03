@@ -8731,6 +8731,7 @@ syl = syl.replace(/ttatteushan/g, "ttatteuthan");
 syl = syl.replace(/ttokkati/g, "ttokkachi");
 syl = syl.replace(/ttulhgoseo/g, "ttulkoseo");
 syl = syl.replace(/yyelhae/g, "yuilhae");
+syl = syl.replace(/anhdorok/g, "antorok");
 	
 //english word corrections that don't interfer with korean words
 
